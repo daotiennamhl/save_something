@@ -1,0 +1,28 @@
+- comprehension:
+    - https://book.pythontips.com/en/latest/comprehensions.html
+    - list: 
+        - squared = [x**2 for x in range(10)]
+    - dicitonary ...
+    - set ...
+    - generators ...
+- context manager:
+    - https://book.pythontips.com/en/latest/context_managers.html
+    - UC example: khi đóng mở file không cần phải tự close() mà sẽ có manager quản lí hộ cho
+    - Ex: 
+        - with open('some_file', 'w') as opened_file:
+- enumerate: 
+    - https://book.pythontips.com/en/latest/enumerate.html
+    - Allows us to loop over something and have an automatic counter
+    - Ex: 
+        - for counter, value in enumerate(my_list):
+- generator:
+    - https://www.youtube.com/watch?v=bD05uGo_sVI&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=38
+    - ưu điểm:
+        - tối ưu memory
+        - tối ưu runtime
+- decorator:
+    - https://www.youtube.com/watch?v=FsAPt_9Bf3U&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=38
+    - Thường để viết log phục vụ cho tracing, monitoring, logging
+- first-class function: https://www.youtube.com/watch?v=kr0mpwqttM0
+- Closure:
+    - Is an inner function that remembers and has access to variables and the local scope in which is was created even after the outer function has finished excecuting

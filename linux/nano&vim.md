@@ -1,0 +1,5 @@
+- nano:
+    - copy: Ctrl + 6 -> Alt + 6
+    - cut: Ctrl + 6 -> Ctrl + K
+    - save: Ctrl + S
+    - exit: Ctrl + X

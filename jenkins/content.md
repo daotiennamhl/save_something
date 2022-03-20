@@ -1,0 +1,4 @@
+- Type of jenkins projects:
+    - Freestyle: simple, single tasks
+    - Pipeline: whole delivery cycle
+    - Multibranch Pipeline: like pipeline by multiple branch

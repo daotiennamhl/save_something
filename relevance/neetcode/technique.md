@@ -1,0 +1,6 @@
+- two pointer technique: 
+    - Định nghĩa: https://www.geeksforgeeks.org/two-pointers-technique/
+    - variant: 
+        - 11. Container with most water: https://www.youtube.com/watch?v=UuiTKBwPgAo
+        - 2sum, 3sum
+        - https://www.youtube.com/watch?v=cQ1Oz4ckceM

@@ -1,0 +1,15 @@
+- tutorial =))) https://www.youtube.com/playlist?list=PLUDwpEzHYYLvx6SuogA7Zhb_hZl3sln66
+- scroll window:
+    - browser.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+    - 
+- findElement:
+    - doc: https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.remote.webelement
+    - by xpath:
+        - https://www.guru99.com/xpath-selenium.html
+        - some:
+            - / = select from root node
+            - // select nodes from current node
+            - //a[@href='...']
+- input content:
+    - inputElement.send_keys('sometext')
+    - inputElement.send_keys(Keys.ENTER) = truyền enter từ bàn phím

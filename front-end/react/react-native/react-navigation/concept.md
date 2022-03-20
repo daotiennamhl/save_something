@@ -1,0 +1,2 @@
+- Stack Navigator
+- unshift() in js = add item to the beginning of array

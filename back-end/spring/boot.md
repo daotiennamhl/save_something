@@ -1,0 +1,1 @@
+Spring data JPA = cung cấp repository hỗ trợ cho JPA(Java Persistence API)

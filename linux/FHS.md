@@ -1,0 +1,19 @@
+- /
+    - /bin (binaries)
+        - /sbin: system binaries that SA would use
+    - /boot
+        - everything your OS needs to boot
+    - /dev (devices)
+        - where your devices live 
+    - /etc (Et cetera)
+        - configuration files are stored
+    - /lib (lib, lib32, lib64)
+    - /mnt (mount)
+    - /opt (opitonal)
+    - /root
+    - /snap
+    - /srv (service)
+    - /sys
+    - /tmp (temporary)
+    - /usr (user)
+        - application will be installed that are used by the user

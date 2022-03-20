@@ -1,0 +1,3812 @@
+Question 1
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+In cell A1, input the data: HELLOWORLD
+
+In cell B2, input the function: 
+
+=LEFT(A1,1)&MID(A1,2,1)&MID(A1,5,1)&MID(A1,4,1)&MID(A1,6,1)
+
+The result of the function in B2 is:
+
+Select one:
+HEOLW 
+HELLO
+HELLOW
+HEOLLW
+#VALUE
+Feedback
+The correct answer is: HEOLW
+Question 2
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+=AND(OR(1>1,2<2,2>=2),TRUE) will result:
+Select one:
+a. 1>2
+b. FALSE
+c. #VALUE!
+d. TRUE 
+Feedback
+The correct answer is: TRUE
+Question 3
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+=AVERAGE(“A”, “B”, “C”,"D") is
+
+Select one:
+A
+1
+An error 
+2
+B
+Feedback
+The correct answer is: An error
+Question 4
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Status indicators are located on the
+
+Select one:
+Formula bar 
+Vertical scroll bar
+Horizontal scroll bar
+ Formatting toolbar
+Feedback
+The correct answer is: Formula bar
+Question 5
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+In =RANK() function, the same values will get the same rank.
+Select one:
+a. FALSE
+b. TRUE 
+Feedback
+The correct answer is: TRUE
+Question 6
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What function  displays row data in a column or column data in a row?
+
+Select one:
+Transpose
+Hyperlink
+Index 
+Rows
+Feedback
+The correct answer is: Transpose
+Question 7
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+=COLUMN(B5) is
+Select one:
+a. 2 
+b. 1
+c. Nothing
+Feedback
+The correct answer is: 2
+Question 8
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+In A1 input a particular date. Which one is NOT the proper way to check whether that date is Sunday or not.
+Select one:
+a. Changing A1 format to “ddd” then use IF(A1= “Sun”,…)
+b. Using WEEKDAY function (i.e =IF(WEEKDAY(A1)=1,….)
+c. Using TEXT function ( i.e =IF(TEXT(A1, “ddd”) = “Sun”….) 
+Feedback
+The correct answer is: Changing A1 format to “ddd” then use IF(A1= “Sun”,…)
+Question 9
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+The only way to resize multiple columns to the same width is by
+Select one:
+a. Changing their sizes one by one
+b. Not possible to do that.
+c. Selecting all those columns and resize one of them. 
+Feedback
+The correct answer is: Selecting all those columns and resize one of them.
+Question 10
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Restricting one particular set of data to input in one cell can be done by using
+
+Select one:
+a. Freeze Panes
+b. Conditional Formating
+c. Macro
+d. Data Validation 
+e. Data entry
+Feedback
+The correct answer is: Data Validation
+Question 11
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+In Excel, by default Numeric Values appears in
+
+Select one:
+Right aligned 
+Left aligned
+Justify aligned
+Center aligned
+Feedback
+The correct answer is: Right aligned
+Question 12
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+You can auto fit the width of column by
+
+Select one:
+Double click on the cell pointer in worksheet
+double clicking on the column name on column header
+Double clicking on column right border on column header 
+Double clicking on the column left border of column header
+Feedback
+The correct answer is: Double clicking on column right border on column header
+Question 13
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Open a blank spreadsheet. In cell A1 of Sheet 1 enter: 1 In cell A2 of Sheet 2 enter: =Sheet1!A2 In cell A3 of Sheet 3 enter: =Sheet1!A1 + Sheet2!A2 What would be the result in A3?
+Select one:
+a. A random number
+b. An error
+c. A data in cell A1 of sheet 2.
+d. 1 
+Feedback
+The correct answer is: 1
+Question 14
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+You can activate a cell by
+
+Select one:
+Pressing the Tab key
+Pressing an arrow key
+Clicking the cell
+All of above 
+Feedback
+The correct answer is: All of above
+Question 15
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the hotkey to move the pointer to the LEFT of a current cell
+Select one:
+a. Alt + Tab
+b. Ctrl + Tab
+c. Shift + Tab 
+Feedback
+The correct answer is: Shift + Tab
+Question 16
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following format you can decide to apply or not in AutoFormat dialog box?
+
+Select one:
+Font format
+All of above 
+Border format
+Number format
+Feedback
+The correct answer is: All of above
+Question 17
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following formulas is not entered correctly?
+
+Select one:
+=B7*B1
+10+50 
+=B7+14
+=10+50
+Feedback
+The correct answer is: 10+50
+Question 18
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+How do you select an entire column?
+
+Select one:
+Hold down the Ctrl key as you click anywhere in the column
+Hold down the shift key as you click anywhere in the column.
+Select Edit > Select > Column from the menu
+Click the column heading letter 
+Feedback
+The correct answer is: Click the column heading letter
+Question 19
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which symbol must all formula begin with?
+
+Select one:
+(
+@
+= 
++
+Feedback
+The correct answer is: =
+Question 20
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+There are 4 types of error in Excel
+Select one:
+a. TRUE 
+b. FALSE
+Feedback
+The correct answer is: TRUE
+Question 21
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+=AND(OR(2=2,3=3,5>6),FALSE) will result:
+
+Select one:
+FALSE 
+#VALUE!
+TRUE
+A blank
+5>6
+Feedback
+The correct answer is: FALSE
+Question 22
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+The INTERSECTION of a row and a column is a CELL. But what is the UNION of a row and a column?
+
+Select one:
+data.
+an equation.
+there is no proper name for that kind of selection 
+a cell.
+Feedback
+The correct answer is: there is no proper name for that kind of selection
+Question 23
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+Selecting the Rows 5 & 6 then choose Insert->Row. What will happen?
+
+Select one:
+2 Rows will be inserted after Row 7
+2 Rows will be inserted after Row 6 
+2 Rows will be inserted after Row 5
+2 Rows will be inserted after Row 4
+Feedback
+The correct answer is: 2 Rows will be inserted after Row 4
+Question 24
+Incorrect
+Mark 0.00 out of 1.00
+FlaggedRemove flag
+Question text
+How do you insert a row?
+
+Select one:
+All of the above 
+Right-click the row heading where you want to insert the new row and select Insert from the shortcut menu
+Select the row heading where you want to insert the new row and select Edit >Row from the menu
+Select the row heading where you want to insert the new row and click the Insert Row button on the standard toolbar
+Feedback
+The correct answer is: Right-click the row heading where you want to insert the new row and select Insert from the shortcut menu
+Question 25
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+You can automatically adjust the size of text in a cell if they do not fit in width by
+
+Select one:
+Double clicking on the right border of column header
+From Format Cells dialog box mark Shrink to fit check box
+From Format choose Columns and then Autofit Selection
+All of above 
+Feedback
+The correct answer is: From Format Cells dialog box mark Shrink to fit check box
+Question 26
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+There is a table with full data in an Excel file. That table address is A1:B100. Clicking into cell A5 then hit Ctrl +A. The result will be:
+Select one:
+a. Nothing
+b. The whole table is selected 
+c. The whole spreadsheet is selected
+d. The whole column A is selected
+Feedback
+The correct answer is: The whole table is selected
+Question 27
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Both of the functions
+
+=MATCH(A1,A1:A15,0)
+
+=MATCH(A1,A1:G1,0)
+
+ result the same value.
+
+Select one:
+FALSE
+TRUE 
+Feedback
+The correct answer is: TRUE
+Question 28
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+In =RANK() function, the same values will get the same rank.
+
+Select one:
+FALSE
+TRUE 
+Feedback
+The correct answer is: TRUE
+Question 29
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+when working in the page break preview, you can
+
+Select one:
+all of above 
+add or remove page breaks
+view exactly where each page break occurs
+change the print area
+Feedback
+The correct answer is: all of above
+Question 30
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+ If you press …., the cell accepts your typing as its contents.
+
+Select one:
+Ctrl + Enter
+TAB
+Enter 
+Insert
+Feedback
+The correct answer is: Enter
+Question 31
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+ If you need to remove only the formatting done in a range (numbers and formula typed there should not be removed), you must
+
+Select one:
+Double click the Format Painter and then press Esc key in keyboard
+Click on Remove Formatting tool on Standard Toolbar
+From Edit menu choose Delete
+From Edit menu choose Clear and then Formats 
+Feedback
+The correct answer is: From Edit menu choose Clear and then Formats
+Question 32
+Incorrect
+Mark 0.00 out of 1.00
+FlaggedRemove flag
+Question text
+Text formulas:
+
+Select one:
+Show formula error value 
+Concatenate and manipulate text
+Replace cell references
+Return ASCII values of characters
+Feedback
+The correct answer is: Concatenate and manipulate text
+Question 33
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+There is NO way to insert a Phone Number, e.g. 0987654321, in an Excel file
+
+Select one:
+FALSE 
+TRUE
+Feedback
+The correct answer is: FALSE
+Question 34
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+There is a table with full data in an Excel file. That table address is B1:D100.
+
+Clicking into cell B5 then hit Ctrl +A.
+
+The result will be:
+
+Select one:
+The whole column B is selected
+Nothing
+The whole table is selected 
+The whole spreadsheet is selected
+Feedback
+The correct answer is: The whole table is selected
+Question 35
+Incorrect
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+Suppose we are in November 2015.
+
+The result of the following function: =YEAR(“TODAY”) is 2015.
+
+Select one:
+FALSE
+TRUE 
+Feedback
+The correct answer is: FALSE
+Question 36
+Incorrect
+Mark 0.00 out of 1.00
+FlaggedRemove flag
+Question text
+You can check the conditions against __________ when applying conditional formatting
+
+Select one:
+Cell value 
+None of above
+Formula
+Both of above
+Feedback
+The correct answer is: Both of above
+Question 37
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+MATCH, VLOOKUP and SEARCH are the 3 different functions in Excel. But these are all shared the same mechanic:
+
+They STOP after finishing the search for the first value.
+
+Select one:
+TRUE 
+FALSE
+Feedback
+The correct answer is: TRUE
+Question 38
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+The VLOOKUP and HLOOKUP function is born to reduce the number of nested If(s) using in equally comparing.
+
+Select one:
+TRUE 
+FALSE
+Feedback
+The correct answer is: TRUE
+Question 39
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+The formula
+
+=Sheet1!A3
+
+will show
+
+Select one:
+A data in cell A3 of sheet 1. 
+An error
+Random number
+A data in cell A1 of sheet 1.
+A data in cell A1 of sheet 3.
+Feedback
+The correct answer is: A data in cell A3 of sheet 1.
+Question 40
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+When you group worksheets
+
+Select one:
+b.   You can print more than one worksheet at a time
+b  and  c 
+c.   You can enter common data, formats, and formulas on multiple worksheets at one time
+a.   You can enter variable data on multiple worksheets at one time
+Feedback
+The correct answer is: b  and  c
+Question 41
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+If 4/6 entered in a cell without applying any formats, Excel will
+
+treat this as
+
+Select one:
+Fraction
+Date 
+Text
+Number
+Feedback
+The correct answer is: Date
+Question 42
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+=MATCH(value,array,0)
+
+=VLOOKUP(value, table, column index, 0)
+
+The 0 (zero) in these two functions above work EXACTLY the same.
+
+Select one:
+TRUE 
+FALSE
+Feedback
+The correct answer is: TRUE
+Question 43
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+ Concatenation of text can be done using
+
+Select one:
+Exclamation (!)
+Hash (#)
+Apostrophe (‘)
+Ampersand (&) 
+Feedback
+The correct answer is: Ampersand (&)
+Question 44
+Incorrect
+Mark 0.00 out of 1.00
+FlaggedRemove flag
+Question text
+What do we call a computer program that organizes data in rows and columns of cells? You might use this type of program to keep a record of the money you earned moving lawns over the summer.
+
+Select one:
+Desktop publisher program
+Database program 
+Spreadsheet program
+Word processor program
+Feedback
+The correct answer is: Spreadsheet program
+Question 45
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+In A1 is a number: 1234 What is the result of: =MID(A1,1,1)+MID(A1,2,1)+MID(A1,3,1)+MID(A1,4,1)
+Select one:
+a. #VALUE because 1,2,3,4 in TEXT type cannot be summed together.
+b. 10 because 1+2+3+4=10 
+Feedback
+The correct answer is: 10 because 1+2+3+4=10
+Question 46
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+To drag a selected range of data to another worksheet in the same workbook, use the
+
+Select one:
+Tab key
+Alt key
+Shift key
+Ctrl key 
+Feedback
+The correct answer is: Ctrl key
+Question 47
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+You can group noncontiguous worksheets with
+
+Select one:
+The ctrl key and mouse 
+The group button on the standard toolbar
+The alt+enter key
+The shift key and the mouse
+Feedback
+The correct answer is: The ctrl key and mouse
+Question 48
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+Ticking the “Unique records only” in Advanced Filter will remove all the duplicated data in that table.
+Select one:
+a. False
+b. True 
+Feedback
+The correct answer is: True
+Question 49
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+ A function inside another function is called a ….. function.
+
+Select one:
+Nested 
+Round
+Text
+Sum
+Feedback
+The correct answer is: Nested
+Question 50
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+How many recent files you can display on File menu at maximum?
+
+Select one:
+6
+9
+4
+12
+Feedback
+The correct answer is: 9
+Question 51
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+Each excel file is called a workbook because
+
+Select one:
+It can contain many sheets including worksheets and chart sheets 
+It can contain text and data
+You have to work hard to create it
+It can be modified
+Feedback
+The correct answer is: It can contain many sheets including worksheets and chart sheets
+Question 52
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+In C1 input a number: -5.6
+
+And in C2 input a formula: =ROUND(C1,0)
+
+Then in C3 input a formula: =INT(C1)
+
+The results in C2 and C3 will be (relatively):
+
+Select one:
+-5 and -5
+-6 and -6 
+-6 and -5
+-5 and -6
+Feedback
+The correct answer is: -6 and -6
+Question 53
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+ Excel uniquely identifies cells within a worksheet with a cell name
+
+Select one:
+Column numbers and row letters
+Cell locator coordinates
+Column letters and row numbers 
+Cell names
+Feedback
+The correct answer is: Column letters and row numbers
+Question 54
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+In A1 and B1 input a number: 1 In A2 and B2 input a number: 2 What is the result of: A1:B1+A2:B2?
+Select one:
+a. {2,4}
+b. {3,3} 
+c. 6
+d. None of the others
+Feedback
+The correct answer is: {3,3}
+Question 55
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+$A$1 and $A1 will share the same meaning if the function is about to be dragged DOWN.
+Select one:
+a. TRUE
+b. FALSE 
+Feedback
+The correct answer is: FALSE
+Question 56
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+Which tool you will use to join some cells and place the content at the middle of joined cell?
+
+Select one:
+From Format Cells dialog box click on Merge Cells check box
+From Format Cells dialog box choose Merge and Center check box
+Click on Merge and Center tool on formatting toolbar 
+ From Format Cells dialog box select the Centered alignment
+Feedback
+The correct answer is: Click on Merge and Center tool on formatting toolbar
+Question 57
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+To delete an embedded objects, first
+
+Select one:
+Double click the object
+Press the Shift + Delete keys
+Select the object by clicking it
+Select it and then press the delete key 
+Feedback
+The correct answer is: Select it and then press the delete key
+Question 58
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following describtes how to select all the cells in a single column.
+Select one:
+a. Left click on the gray column title button 
+b. None of the others
+c. Right click on that column and select Pick from list
+d. Use Text-to-Columns
+Feedback
+The correct answer is: Left click on the gray column title button
+Question 59
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+=IFERROR(value, value if error) is used to prevent the output to result an error warning. What is the result of: =IFERROR(9+9, “This is not an error”)
+Select one:
+a. 18 
+b. #VALUE
+c. This is not an error
+d. 9+9
+Feedback
+The correct answer is: 18
+Question 60
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+ A worksheet range is a
+
+Select one:
+A group of worksheets
+A range of values such as from 23 to 234
+A group of cells 
+A command used for data modeling
+Feedback
+The correct answer is: A group of cells
+Question 61
+Not answered
+Marked out of 1.00
+FlaggedRemove flag
+Question text
+a.   Show the formatting of a data label
+
+Select one:
+b and c
+a.   Show the formatting of a data label
+b.   Show the name of a data series
+c.   Show the value of data point
+Feedback
+The correct answer is: b and c
+Question 62
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+There is NO rules in Conditional Formating to automatically highlight a MAXIMUM value of an array.
+
+Select one:
+TRUE
+FALSE 
+Feedback
+The correct answer is: FALSE
+Question 63
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+You can use the horizontal and vertical scroll bars to
+
+Select one:
+Split a worksheet into two panes
+Edit the contents of a cell
+View different rows and columns 
+View different worksheets
+Feedback
+The correct answer is: View different rows and columns
+Question 64
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+To create a formula, you first:
+
+Select one:
+Select the cell you want to place the formula into 
+ Type the equals sign (=) to tell Excel that you’re about to enter a formula
+Choose the new command from the file menu
+Enter the formula using any input values and the appropriate mathematical operators that make up your formula
+Feedback
+The correct answer is: Select the cell you want to place the formula into
+Question 65
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+How to restrict the values of a cell so that only whole numbers
+
+between 9 and 99 can be entered in a cell.
+
+Select one:
+The Settings tab under the menu Data -> Data Validation 
+The Settings tab under the menu Format -> Cells
+The Settings tab under the menu Data -> Filter -> Advanced Filter
+ the Settings tab under the menu Format -> Conditional Formatting
+Feedback
+The correct answer is: The Settings tab under the menu Data -> Data Validation
+Question 66
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+To activate the previous cell in a pre-selected range, press
+
+Select one:
+The Tab key
+The Alt key
+None of the above 
+The Enter key
+Feedback
+The correct answer is: None of the above
+Question 67
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+LOOKUP functions are divided into Horizontal (Hlookup) and Vertical (Vlookup) based on the dimensions of the original data table.
+Select one:
+a. FALSE
+b. TRUE 
+Feedback
+The correct answer is: TRUE
+Question 68
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+In A1:A5 relatively input the series of number: 1,2,3,1,1. What would be the result of the following function when typed in A6: =MATCH(“1”,A1:A5,0) .
+Select one:
+a. 1 – because the MATCH function will find the value and show that value afterward.
+b. 1 – because 1 appears the most in the series.
+c. 1 – because the MATCH function will find the value and show the position number of that value in the list. 
+d. 1 – because 1 is the minimum value in the list.
+Feedback
+The correct answer is: 1 – because the MATCH function will find the value and show the position number of that value in the list.
+Question 69
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+ Which of the following methods can not be used to edit the contents of a cell?
+
+Select one:
+Double clicking the cell
+Press the Alt key 
+Clicking the formula bar
+Pressing the F2 key
+Feedback
+The correct answer is: Press the Alt key
+Question 70
+Not answered
+Marked out of 1.00
+FlaggedRemove flag
+Question text
+You can move a sheet from one workbook into new book by
+
+Select one:
+From Edit menu choose Move of Copy then choose (Move to end) and click OK
+None of above
+From Edit menu choose Move or Copy sheet, mark the Create a ccopy and Click OK
+From Edit menu choose Move or Copy then select (new book) from To Book list and click OK
+Feedback
+The correct answer is: From Edit menu choose Move or Copy then select (new book) from To Book list and click OK
+Question 71
+Correct
+Mark 1.00 out of 1.00
+FlaggedRemove flag
+Question text
+You can select a single range of cells by
+
+Select one:
+Pressing the Shift key and an arrow key
+Dragging over the desired cells 
+Clicking the upper-left cell in a group of cells and then pressing the Shift key while clicking the lower right cell in a group of cells
+Pressing the Ctrl key while dragging over the desired cells
+Feedback
+The correct answer is: Dragging over the desired cells
+Question 72
+Correct
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+=COLUMN(B1) is
+
+Select one:
+2 
+#VALUE
+B1
+1
+Feedback
+The correct answer is: 2
+Question 73
+Incorrect
+Mark 0.00 out of 1.00
+FlaggedRemove flag
+Question text
+Which of the following is not a basic step in creating a worksheet?
+
+Select one:
+Enter text and data
+Copy the worksheet
+Save the workbook
+Modify the worksheet 
+Feedback
+The correct answer is: Copy the worksheet
+Question 74
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Input into B1 a number:2
+
+Input into B2 a text:books
+
+Input into B3 a formula:= “You have ”&B1&B2
+
+What EXACTLY is the result in B3:
+
+Select one:
+You  have 2 books
+You  have books
+None of the others.
+You  have 2books
+Feedback
+The correct answer is: You  have 2books
+Question 75
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Formatting a cell in Number format you can’t set
+
+Select one:
+Currency Symbol
+Use 1000 separator
+Negative numbers
+Decimal Places
+Feedback
+The correct answer is: Currency Symbol
+Question 76
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following methods can not be used to enter data in a cell?
+
+Select one:
+Pressing the Esc key
+Clicking the enter button to the formula bar
+Pressing an arrow key
+Pressing the tab key
+Feedback
+The correct answer is: Pressing the Esc key
+Question 77
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+When the formula bar is activated, you can see
+
+Select one:
+The Edit Formula button
+The Cancel button
+All of above
+The Enter button
+Feedback
+The correct answer is: All of above
+Question 78
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+=MATCH(A1,A1:A5,0) =MATCH(A1,A1:E1,0) Both of these functions result the same value.
+Select one:
+a. TRUE
+b. FALSE
+Feedback
+The correct answer is: TRUE
+Question 79
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What does the VLOOKUP function do?
+Select one:
+a. Looks up all the text contains “V”
+b. All of the others
+c. Checks whether text is the same in one cell as in the next
+d. Finds related record between columns
+Feedback
+The correct answer is: Finds related record between columns
+Question 80
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Suppose we are in November 2015.
+
+Type in: =TODAY() into cell A1.
+
+Change A1’s data into custom type: YY.
+
+The final result will be:
+
+Select one:
+2015
+15
+#VALUE
+November
+Feedback
+The correct answer is: 15
+Question 81
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+It is very easy to group data in Date&time format using Pivot Table
+Select one:
+a. TRUE
+b. FALSE
+Feedback
+The correct answer is: TRUE
+Question 82
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can merge the main document with data source in Excel. In mail merge operation, Word is usually
+
+Select one:
+source
+server
+client
+none
+Feedback
+The correct answer is: client
+Question 83
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can edit a cell by
+
+Select one:
+ Double clicking the cell to edit it in-place
+Clicking the formula button
+Selecting Edit>Edit Cell from the menu
+None of above
+Feedback
+The correct answer is:  Double clicking the cell to edit it in-place
+Question 84
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The autofill feature
+
+Select one:
+Applies a boarder around selected cells
+Extends a sequential series of data
+None of above
+Automatically adds a range of cell values
+Feedback
+The correct answer is: Extends a sequential series of data
+Question 85
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+A user wishes to remove a spreadsheet from a workbook. Which is the correct sequence of events that will do this?
+
+Select one:
+None of above
+Go to File-Save As – Save As Type – Excel worksheet
+Right click on the spreadsheet tab and select DELETE
+Right click on the spreadsheet and select Insert – Entire Column
+Feedback
+The correct answer is: Right click on the spreadsheet tab and select DELETE
+Question 86
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+How should you print a selected area of a worksheet, if you’ll want to print a different area next time?
+
+Select one:
+On the file menu, click print, and then click selection under print what
+On the view menu, click custom views, then click add
+On the file menu, point to print area, and then click set print area.
+All of above
+Feedback
+The correct answer is: On the file menu, click print, and then click selection under print what
+Question 87
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ To copy cell contents using drag and drop press the
+
+Select one:
+ End key
+Esc key
+Shift key
+Ctrl key
+Feedback
+The correct answer is: Esc key
+Question 88
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Edit >> Delete command
+
+Select one:
+Deletes the content of a cell
+Deletes the comment of cell
+Deletes Formats of cell
+Deletes selected cells
+Feedback
+The correct answer is: Deletes selected cells
+Question 89
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Entering this formula in A1:
+
+=IF(A1= “”, “Hello”, “World”)
+
+Will result:
+
+Select one:
+The content of the cell A1 will be an empty string ("")
+Hello
+World
+An error
+Feedback
+The correct answer is: An error
+Question 90
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The result of: =1+TRUE is
+
+Select one:
+2
+0
+3
+An error
+1
+Feedback
+The correct answer is: 2
+Question 91
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You want to track the progress of the stock market on a daily basis. Which type of chart should you use?
+
+Select one:
+Line chart
+Pie chart
+Row chart
+Coumn chart
+Feedback
+The correct answer is: Line chart
+Question 92
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is the meaning of number “0” in this following formula: =VLOOKUP(F1,A1:B10,2,0)
+Select one:
+a. Finding the exact value in F1
+b. Finding the relative value in F1
+c. Finding the position value of number Zero in A1:B10
+d. It does not have any meaning, just a part of the VLOOKUP syntax.
+Feedback
+The correct answer is: Finding the exact value in F1
+Question 93
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In cell A1, input the function: =ROW().
+
+Drag this function to the RIGHT, we will get:
+
+Select one:
+1,2,3,4,5,6,7,8,9,….
+1,1,1,1,1,1,1,1,1,….
+ROW(),ROW(),ROW(),ROW()….
+None of the others
+Feedback
+The correct answer is: 1,1,1,1,1,1,1,1,1,….
+Question 94
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+How can you update the values of formula cells if Auto Calculate mode of Excel is disabled?
+
+Select one:
+F9
+F10
+F11
+F8
+Feedback
+The correct answer is: F9
+Question 95
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can activate a cell by
+
+Select one:
+All of the above
+Clicking the cell
+Pressing the Tab key
+Pressing an arrow key
+Feedback
+The correct answer is: All of the above
+Question 96
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is not true regarding Conditional Formatting?
+
+Select one:
+You can delete any condition from Conditional Formatting dialog box if it is not requried
+You can add more than one condition to check
+You can apply Font, border and pattern formats that meets the specified conditions
+You can set condition to look for Bold and apply Italics on them.
+Feedback
+The correct answer is: You can set condition to look for Bold and apply Italics on them.
+Question 97
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Rounding errors can occur
+
+Select one:
+When you show the results of formulas with different decimal places than the calculated results
+When you use addition and subtraction in a formula
+Because Excel uses hidden decimal places in computation
+When you use multiplication, division or exponentiation in a formula
+Feedback
+The correct answer is: When you use multiplication, division or exponentiation in a formula
+Question 98
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In counting how many numbers there are in a list (which contains only numbers), COUNT() and COUNTA() are both usable.
+
+Select one:
+TRUE
+FALSE
+Feedback
+The correct answer is: TRUE
+Question 99
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following syntax is correct regarding to SUM
+
+function in Excel?
+
+Select one:
+=SUM (A1:B9)
+=SUM (A1:A9, B1:B9)
+=SUM (A1, B1)
+All of the above
+Feedback
+The correct answer is: All of the above
+Question 100
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is correct?
+
+Select one:
+=POWER(2^3)
+=POWER(23)
+=POWER(2#3)
+=POWER(2,3)
+Feedback
+The correct answer is: =POWER(2,3)
+Question 101
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ When you enter Sunday and fill right, Excel fill in with Monday, Tuesday and so on. From where Excel knows what to fill in next?
+
+Select one:
+AutoFormat
+AutoComplete
+Calculation Automatic
+Custom List
+Feedback
+The correct answer is: Custom List
+Question 102
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which function will you use to enter current time in a woksheet cell?
+
+Select one:
+=time()
+=now()
+=today()
+=currentTime()
+Feedback
+The correct answer is: =now()
+Question 103
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Worksheet can be renamed by
+
+Select one:
+Worksheet cannot renamed
+Double Click on the Worksheet tab and type new name
+Click on Worksheet tab by Holding CTRL Key and type new name
+Adding ? symbol at the end of filename while saving workbook
+Feedback
+The correct answer is: Double Click on the Worksheet tab and type new name
+Question 104
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Advanced Filter CAN be used to remove duplicated values in a table while Pivot table CANNOT.
+Select one:
+a. False
+b. True
+Feedback
+The correct answer is: False
+Question 105
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The ……… chart type allows user to choose Percentage in data displaying.
+Select one:
+a. Line
+b. Pie
+c. Column
+d. Scatter
+Feedback
+The correct answer is: Pie
+Question 106
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Tab scroll buttons are place on Excel screen
+
+Select one:
+towards the bottom left corner
+towards the top right corner
+towards the bottom right corner
+towards the top left corner
+Feedback
+The correct answer is: towards the bottom left corner
+Question 107
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In Excel _______ may not contain in Formula
+
+Select one:
+Number Constant
+All of them
+Circular Reference
+Text Constant
+Feedback
+The correct answer is: Circular Reference
+Question 108
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ If the values in A1 is “MCQ” and B1 is “Questions”, which
+
+function will return “MCQ@Questions” in cell C1?
+
+Select one:
+=A1 + “@” + B1
+=A1 & “@” & B1
+=A1 $ “@” $ B1
+=A1 # “@” # B1
+Feedback
+The correct answer is: =A1 & “@” & B1
+Question 109
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What Pivot Table button can be used to update the data if the source data has changed
+Select one:
+a. Format Report
+b. Refresh Data
+c. Show Detail
+d. Pivot Table
+Feedback
+The correct answer is: Refresh Data
+Question 110
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What would be the result of the following formula: =SUM(1,1,MAX(MIN(1,2),0))
+Select one:
+a. 4
+b. 2
+c. 1
+d. 3
+Feedback
+The correct answer is: 3
+Question 111
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In A1:A5 input random numbers. To compare each of the item in that list with 1, the method we should use is selecting B1:B5 then type:
+Select one:
+a. =IF(A1<1, “Smaller than 1”, “Greater or equal to 1”)  Ctrl Enter
+b. All of the others are usable
+c. =IF(A1:A5<1, “Smaller than 1”, “Greater or equal to 1”)  Ctrl Shift Enter
+Feedback
+The correct answer is: All of the others are usable
+Question 112
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can not link Excel worksheet data to a Word document
+
+Select one:
+With a hyperlink
+With the copy and paste buttons on the standard toolbar
+With the right drag method
+With the copy and paste special commands
+Feedback
+The correct answer is: With the copy and paste buttons on the standard toolbar
+Question 113
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ Gridlines
+
+Select one:
+May be turned on or off for printing
+All  of  above
+May be turned off for display and printing
+May be turned off for display but turned on for printing
+Feedback
+The correct answer is: All  of  above
+Question 114
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In B1:B12 input the MONTHs: 1 to 12.
+
+In C1:C12, we want to input a formula to show the QUARTERs of each month accordingly.
+
+The SHORTER method here is:
+
+Select one:
+=IF()
+=ROUNDUP()
+Feedback
+The correct answer is: =ROUNDUP()
+Question 115
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is not a way to complete a cell entry?
+
+Select one:
+Clicking the Enter button on the Formula bar
+Pressing spacebar
+Pressing any arrow key on the keyboard
+Pressing enter
+Feedback
+The correct answer is: Pressing spacebar
+Question 116
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+To finish a work, 10 employees must work 10 hours/day for a whole 7 days.
+
+How many employees needed to finish that same work if the company only allow their staffs working 8 hours/day?
+
+To answer the question above, the BEST method is to use:
+
+Select one:
+=ROUND()
+=ROUNDUP()
+=ROUNDDOWN()
+None of the other choices
+Feedback
+The correct answer is: =ROUNDUP()
+Question 117
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In Excel, to recognize the data type of a single cell, we will look at the default ALIGNMENT of the data.
+
+Now choose the correct statement:
+
+Select one:
+Dates are counted as numbers so they are right-aligned
+Dates are counted as logical values so they are middle-aligned
+Dates are counted as texts so they are left-aligned
+Feedback
+The correct answer is: Dates are counted as numbers so they are right-aligned
+Question 118
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following setup options can not be set in the page setup dialog box?
+
+Select one:
+Orientation
+Vertical or horizontal placement
+Row and column titles
+Printer selection
+Feedback
+The correct answer is: Printer selection
+Question 119
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+An user’s clock is in “dd-mm-yyyy” format. In A1 input: 30-02-2014 In A2 input: =DAY(A1) The result in A2 will be:
+Select one:
+a. 30
+b. #VALUE
+c. 14
+d. 02
+Feedback
+The correct answer is: #VALUE
+Question 120
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which types of charts can excel produce?
+
+Select one:
+ Bar charts and line graphs only
+Bar charts, line graphs and pie charts
+Line graphs and pie charts only
+Only line graphs
+Feedback
+The correct answer is: Bar charts, line graphs and pie charts
+Question 121
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In Pivot table, dragging a TEXT column into a Total Values Field will always display a COUNT() formula instead of a default SUM().
+
+Select one:
+TRUE
+FALSE
+Feedback
+The correct answer is: TRUE
+Question 122
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In A1 input a random Date of a random year in September (I.e. ??-09-????) The result of =EOMONTH(A1,2) will always be:
+Select one:
+a. 29
+b. 28
+c. 30
+d. None of the others.
+Feedback
+The correct answer is: 30
+Question 123
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can copy data or formulas
+
+Select one:
+All of the above
+With commands on ta shortcut menu
+With buttons on the standard toolbars
+With the copy, paste and cut commands on the edit menu
+Feedback
+The correct answer is: All of the above
+Question 124
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can use the formula palette to
+
+Select one:
+Create and edit formulas containing functions
+Copy a range of cells
+Format cells containing numbers
+Enter assumptions data
+Feedback
+The correct answer is: Create and edit formulas containing functions
+Question 125
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Formatting a cell in Currency, you can specify
+
+Select one:
+Decimal Places
+Both of above
+None of above
+Currency Symbol
+Feedback
+The correct answer is: Both of above
+Question 126
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+To show/hide the grid lines in Microsoft Excel
+
+Select one:
+View -> Grid lines -> View
+Edit -> Grid lines -> View
+Page Layout -> Grid lines -> View
+Insert -> Grid lines -> View
+Feedback
+The correct answer is: Page Layout -> Grid lines -> View
+Question 127
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following describes how to select all the cells in a single column?
+
+Select one:
+Pressing Ctrl + A on the keyboard
+Left click on the gray column title button
+Right click on column and select Pick from list
+Use data – text to columns menu item
+Feedback
+The correct answer is: Left click on the gray column title button
+Question 128
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can use the drag and drop method to
+
+Select one:
+a and b
+b. Move cell contents
+a. Copy cell contents
+c. Add cell contents
+Feedback
+The correct answer is: a and b
+Question 129
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+How do you delete a column?
+
+Select one:
+Right click the column heading you want to delet and select delete from the shortcut menu
+Select the column heading you want to delete and select the Delete Row button on the standard toolbar
+Select the column heading you want to delete and select Insert Delete from the menu
+Select the row heading you want to delete and select Edit>Delete from the menu
+Feedback
+The correct answer is: Right click the column heading you want to delet and select delete from the shortcut menu
+Question 130
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+When you print preview a worksheet
+
+Select one:
+a.   the entire worksheet is displayed
+b.   the selected range is displayed
+a, b and c
+c.   the active portion of the worksheet is displayed
+Feedback
+The correct answer is: a, b and c
+Question 131
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The method to make a couple of rows ALWAYS visible when you scroll the spreadsheet down is called
+Select one:
+a. Text-to-Columns
+b. Cosolidation
+c. Freeze Text
+d. Freeze Panes
+Feedback
+The correct answer is: Freeze Panes
+Question 132
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The result of this function: =INDEX(B:B,4,2) will be the data inside cell:
+Select one:
+a. Returns an error.
+b. B2
+c. B4
+Feedback
+The correct answer is: Returns an error.
+Question 133
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+An user’s system clock is in the format “dd-mm-yyyy”. In A1 of a spreadsheet he enters a date: 30-02-2014. Then in A2 he enter a following formula: =DATE(A1). What would be the result of A2?
+Select one:
+a. An error
+b. 30
+c. 02
+Feedback
+The correct answer is: 30
+Question 134
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The default alignment of True/False data in Excel is
+Select one:
+a. Left or Right depends on how the users input them.
+b. Right
+c. Mid
+d. Left
+Feedback
+The correct answer is: Mid
+Question 135
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+By default Excel provides 3 worksheets. You need only two of them, how will you delete the third one?
+
+Select one:
+Right click on Sheet Tab of third sheet and choose Delete from the context menu
+Both of above
+None of above
+Click on Sheet 3 and from Edit menu choose Delete
+Feedback
+The correct answer is: Right click on Sheet Tab of third sheet and choose Delete from the context menu
+Question 136
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is not the correct method of editing the cell content?
+
+Select one:
+Double click the cell
+Click the formula bar
+ Press the Alt key
+Press the F2 key
+Feedback
+The correct answer is:  Press the Alt key
+Question 137
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ The Paste Special command lets you copy and paste:
+
+Select one:
+Formatting options
+Cell comments
+The resulting values of a formula instead of the actual formula
+Multiply the selection by a copied value
+Feedback
+The correct answer is: The resulting values of a formula instead of the actual formula
+Question 138
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ Special category of Number tab in Format Cells dialog box can be used to apply formats like
+
+Select one:
+Both of above
+None of above
+Zip Code
+Phone Number
+Feedback
+The correct answer is: Both of above
+Question 139
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Every sorting method or formulas in Excel has 2 different orientation: ASCending (smallest to largest) and DESCending (largest to smallest)
+Select one:
+a. True
+b. False
+Feedback
+The correct answer is: True
+Question 140
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ you can use the formula palette to
+
+Select one:
+copy a range of cells
+create and edit formulas containing functions
+entered assumptions data
+format cells containing numbers
+Feedback
+The correct answer is: create and edit formulas containing functions
+Question 141
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In cell A1, input the function: =ROW().
+
+Drag this function DOWN, we will get:
+
+Select one:
+1,1,1,1,1,1,1,1,1,….
+None of the others
+1,2,3,4,5,6,7,8,9,….
+ROW(),ROW(),ROW(),ROW()….
+Feedback
+The correct answer is: 1,2,3,4,5,6,7,8,9,….
+Question 142
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+We CANNOT use HLOOKUP to search for data in the UPPER row of the reference table.
+Select one:
+a. False
+b. True
+Feedback
+The correct answer is: True
+Question 143
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+When a row of data is to be converted into columns
+
+Select one:
+Copy the cells then go to Format >> Cells then on Alignment tab click Transpose check box and click OK
+Copy the cells in column then choose Edit >> Paste Special, then click Transpose and OK
+Copy the cells in row, select the same number of cells in row and paste
+Select the cells then place the cell pointer on new cell and choose Edit >> Paste Special, mark Transpose check box and click OK.
+Feedback
+The correct answer is: Select the cells then place the cell pointer on new cell and choose Edit >> Paste Special, mark Transpose check box and click OK.
+Question 144
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The formula =$C3*D3 is located in cell B1. If this was copied and pasted into cell B2, what would the resulting formula be:
+Select one:
+a. =$C4*D4
+b. =$C4*E3
+c. None of the others.
+d. =$C$3*C3
+Feedback
+The correct answer is: =$C4*D4
+Question 145
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In A:A input a list of Vietnamese Fullnames (I.e. Pham Phuong Ha). To separate only the lastnames of the list, we need to use
+Select one:
+a. =SEARCH() only
+b. =LEN() only
+c. =LEFT and =SEARCH only
+d. =SEARCH() and =LEN() only
+Feedback
+The correct answer is: =LEFT and =SEARCH only
+Question 146
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+To remove the content of selected cells you must issue ______ command
+
+Select one:
+Data >> Delete
+Edit >> Clear >> Contents
+Edit >> Clear >> All
+Edit >> Delete
+Feedback
+The correct answer is: Edit >> Clear >> Contents
+Question 147
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In B1 input: 3
+
+In B2 input: 3
+
+=AVERAGE(B1:B2,5,7) will be
+
+Select one:
+2
+4
+4.5
+3.5
+3
+Feedback
+The correct answer is: 4.5
+Question 148
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ If the cell B1 contains the formula = $A$1, which of the
+
+following statements is true
+
+Select one:
+There is a relative reference to cell A1
+Further changes in value of B1 will affect the value of A1
+There is an absolute reference to cell A1
+Further changes in value of A1 will not affect the value of B1
+Feedback
+The correct answer is: There is an absolute reference to cell A1
+Question 149
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Entering this formula in A1: =IF(A1= “”, “Insert value here please!”, “It’s ok now!”) Will result:
+Select one:
+a. An error.
+b. Insert value here please!
+c. It’s ok now!
+Feedback
+The correct answer is: An error.
+Question 150
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is entered by the function =today()
+
+Select one:
+The time value according to system clock
+Today’s date as Text format
+All of above
+The date value for the day according to system clock
+Feedback
+The correct answer is: The date value for the day according to system clock
+Question 151
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+An user’s clock is in “dd-mm-yyyy” format.
+
+In C1 input: 30-02-2014
+
+In C2 input: =DAY(C1)
+
+The result in C2 will be:
+
+Select one:
+#VALUE
+02
+30
+14
+Feedback
+The correct answer is: #VALUE
+Question 152
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+To create a formula, you can use:
+
+Select one:
+Cell references but not values
+Value and cell references
+Values or cell references although not both at the same time
+Values but not cell references
+Feedback
+The correct answer is: Value and cell references
+Question 153
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ You can set Page Border in Excel from
+
+Select one:
+You can not set page border in Excel
+From Border tab in Format Cells dialog box
+From Line Style tool in Drawing toolbar
+From Border tool in Formatting toolbar
+Feedback
+The correct answer is: You can not set page border in Excel
+Question 154
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+B1 and B2 are left blank intentionally. What is the result of the function in the cell B3 if the formula below is typed in it:
+
+=B1=B1+B1+B2+B2
+
+Select one:
+FALSE
+TRUE
+The content of B3 is blank
+An error
+Feedback
+The correct answer is: TRUE
+Question 155
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+A:A is the list of all Students’ names with the format: Lastname  Midname  Firstname (i.e: Tran Van Thu)
+
+To count how many students with firstname as ‘Van’, the BEST function to use is:
+
+Select one:
+=COUNTIF(A:A, “Van*”)
+=COUNTIF(A:A, “*Van”)
+=COUNTIF(A:A, “&Van*”)
+=COUNTIF(A:A, “*Van*”)
+Feedback
+The correct answer is: =COUNTIF(A:A, “*Van”)
+Question 156
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can edit existing Excel data by pressing the
+
+Select one:
+F1
+F4
+F3
+F2
+Feedback
+The correct answer is: F2
+Question 157
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+A numeric value can be treated as a label value if it precedes with
+
+Select one:
+Ampersand (&)
+Hash (#)
+Exclamation (!)
+Apostrophe (‘)
+Feedback
+The correct answer is: Apostrophe (‘)
+Question 158
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Rounding errors can occur
+
+Select one:
+Because excel uses hidden decimal places in computation
+When you use addition and subtraction in a formula
+When you show the results of formulas with different decimal places that the calculated results
+When you use multiplication, division, or exponentiation in a formula
+Feedback
+The correct answer is: When you use multiplication, division, or exponentiation in a formula
+Question 159
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In Microsoft Excel, which of the following is the absolute reference
+Select one:
+a. $10$A
+b. None of the others
+c. A$10
+d. $A$10
+Feedback
+The correct answer is: $A$10
+Question 160
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+All worksheet formula
+
+Select one:
+Manipulate labels
+Return a formula result
+Use the addition operator
+Manipulate values
+Feedback
+The correct answer is: Return a formula result
+Question 161
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+A formula is a function
+Select one:
+a. FALSE
+b. TRUE
+Feedback
+The correct answer is: FALSE
+Question 162
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+“Qtr 1, Qtr 2, Qtr 3” is an example of
+Select one:
+a. Function
+b. Formula
+c. Syntax
+d. Series
+Feedback
+The correct answer is: Series
+Question 163
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In A1 input: 2 In A2 input: 2 =AVERAGE(A1:A2,5) will be
+Select one:
+a. 3
+b. 2
+c. 4.5
+Feedback
+The correct answer is: 3
+Question 164
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+A company’s stock value in day 1 was 1000$. In day 2, stock value raised by 20%. In day 3, it dropped by 20%. The company’s stock value is now:
+Select one:
+a. 1000$
+b. More than 1000$
+c. Less than 1000$
+Feedback
+The correct answer is: Less than 1000$
+Question 165
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can use the formula pallette to
+
+Select one:
+format cells containing numbers
+create and edit formula containing functions
+enter assumptions data
+copy a range of cells
+Feedback
+The correct answer is: create and edit formula containing functions
+Question 166
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The result of: =1=TRUE is
+
+Select one:
+True
+False
+Feedback
+The correct answer is: False
+Question 167
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Getting data from a cell located in a different sheet is called …
+
+Select one:
+Updating
+Functioning
+Referencing
+Accessing
+Feedback
+The correct answer is: Referencing
+Question 168
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is an absolute cell reference?
+
+Select one:
+!A!1
+$A$1
+A1
+#a#1
+Feedback
+The correct answer is: $A$1
+Question 169
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The two formulas:
+
+=INT(C1) and
+
+=ROUNDDOWN(C1,0)
+
+ALWAYS share the same result.
+
+Select one:
+TRUE
+FALSE
+Feedback
+The correct answer is: TRUE
+Question 170
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can enter which types of data into worksheet cells?
+
+Select one:
+Labels, values, and formulas
+Formulas only
+Values and formulas but not labels
+Labels and values but not formulas
+Feedback
+The correct answer is: Labels, values, and formulas
+Question 171
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+There are 2 bacteria in the beginning. After 3 hours, each bacteria will be duplicated. The question is, to make a template with 1 input (number of hours passed) to automatically calculate how many bacteria at that time, we have to use
+Select one:
+a. =ROUNDDOWN()
+b. =MOD()
+c. =ROUND()
+d. =ROUNDUP()
+Feedback
+The correct answer is: =ROUNDDOWN()
+Question 172
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ If you need a text to show vertically in a cell. How will you achieve this?
+
+Select one:
+Choose Distributed from the Vertical drop down list of Format Cells dialog box
+Choose Center Across Selection from Horizontal combo box in Format Cells dialog box
+Choose Vertical on Text alignment in Format Cells dialog box
+Choose 90 Degrees in Orientation of Format Cells dialog box
+Feedback
+The correct answer is: Choose 90 Degrees in Orientation of Format Cells dialog box
+Question 173
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Ticking the “Unique records only” in Advanced Filter will remove all the duplicated data in that table.
+
+Select one:
+FALSE
+TRUE
+Feedback
+The correct answer is: TRUE
+Question 174
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+LOOKUP functions are divided into Horizontal (Hlookup) and Vertical (Vlookup) based on the dimensions of the original data table.
+
+Select one:
+FALSE
+TRUE
+Feedback
+The correct answer is: TRUE
+Question 175
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In Pivot table, dragging a TEXT column into a Total Values Field will always display a COUNT() formula instead of a default SUM()
+Select one:
+a. TRUE
+b. FALSE
+Feedback
+The correct answer is: TRUE
+Question 176
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is NOT a chart type in Excel?
+Select one:
+a. Line Chart
+b. Graph Chart
+c. Pie chart
+d. Column chart
+Feedback
+The correct answer is: Graph Chart
+Question 177
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In A1,A2 and A3 relatively input these numbers: 1,2, and 3. What would be the result of the function: =SUM(A1:A3,4)
+Select one:
+a. An error.
+b. 8
+c. 10
+Feedback
+The correct answer is: 10
+Question 178
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+How to fit long texts in a single cell with multiple lines?
+
+Select one:
+Use the Wrap Text option in the Format -> Alignment menu
+Start typing in the cell and press the Enter key to start another line
+Use the Shrink to Fit option in the Format -> Cells -> Alignment menu
+All of above
+Feedback
+The correct answer is: Use the Wrap Text option in the Format -> Alignment menu
+Question 179
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In A1 input a number: -5.2 And in A2 input a formula: =ROUND(A1,0) Then in A3 input a formula: =INT(A1) The results in A2 and A3 will be (relatively):
+Select one:
+a. -5 and -5
+b. -5 and -6
+c. -6 and -6
+d. -6 and -5
+Feedback
+The correct answer is: -5 and -6
+Question 180
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+When you want to insert a blank imbedded excel object in a word document you can
+
+Select one:
+Click the import excel command on the file menu
+Click the create worksheet button on the formatting toolbar
+Click the office links button on the standard toolbar
+Click the object command on the insert menu
+Feedback
+The correct answer is: Click the object command on the insert menu
+Question 181
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In buiding a formula in Excel, the hotkey to change one cell address to absolute reference and vice versa is:
+Select one:
+a. F4
+b. F2
+c. F3
+d. F5
+Feedback
+The correct answer is: F4
+Question 182
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Right clicking something in Excel:
+
+Select one:
+Selects the object
+Deletes the object
+Nothing the right mouse button is there for left handed people
+Opens a shortcut menu listing everything you can do to the object
+Feedback
+The correct answer is: Opens a shortcut menu listing everything you can do to the object
+Question 183
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+A function inside another function is called a ……. function.
+
+Select one:
+a. ROUND
+b. Text
+c. Range
+d. SUM
+e. Nested
+Feedback
+The correct answer is: Nested
+Question 184
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The formula =$C3*D3 is located in cell B2. If this was copied and pasted into cell B3, what would the resulting formula be:
+
+Select one:
+=C4:D4
+=$C$3*C3
+=$C3*$D4
+=$C4*D4
+=$C4*E3
+Feedback
+The correct answer is: =$C4*D4
+Question 185
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In Microsoft Excel, which of the following is NOT a cell address
+Select one:
+a. $10$A
+b. A$10
+c. $A$10
+Feedback
+The correct answer is: $10$A
+Question 186
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What will be the result if you type =A1=B1 in cell C1?
+
+Select one:
+Value of B1
+Value of A1
+True or False
+Yes or No
+Feedback
+The correct answer is: True or False
+Question 187
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+When you use the fill effects in the format data series dialog box, you can not
+
+Select one:
+select a pattern
+select a background color
+rotate text on the chart
+select a fore ground color
+Feedback
+The correct answer is: rotate text on the chart
+Question 188
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+=IFERROR(value, value if error) is used to prevent the output to result an error warning.
+
+What is the result of:
+
+=IFERROR(7+8, “This is an error”)
+
+Select one:
+This is an error
+#VALUE
+None of the others
+7+8
+15
+Feedback
+The correct answer is: 15
+Question 189
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ If you begin typing an entry into a cell and then realize that you don’t want your entry placed into a cell, you:
+
+Select one:
+Press Esc
+Press the Enter button
+Press the Erase key
+Press the Edit Formula button
+Feedback
+The correct answer is: Press Esc
+Question 190
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In filtering data, Pivot table is a very useful tool by allowing users to drag and drop columns in an original table.
+
+However it CANNOT solve some complicated filterings without making additional columns.
+
+Select one:
+TRUE
+FALSE
+Feedback
+The correct answer is: TRUE
+Question 191
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ A circular reference is
+
+Select one:
+Geometric modeling tool
+Always erroneous
+A cell that points to a drawing object
+A formula that either directly or indirectly depends on itself
+Feedback
+The correct answer is: A formula that either directly or indirectly depends on itself
+Question 192
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The =MAX(number1,number2,….) function is used to calculate the maximum number in an array. Suppose the value in the cell B1 is  8.
+
+What is the result of the function: =MAX(1,2,3, “B1”)
+
+Select one:
+8
+6
+3
+#VALUE
+Feedback
+The correct answer is: #VALUE
+Question 193
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The autofill feature
+Select one:
+a. Extends a sequential series of data
+b. Automatically colors a range of cell values
+c. None of the others
+d. Applies a border around selected cells
+Feedback
+The correct answer is: Extends a sequential series of data
+Question 194
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What Pivot Table toolbar button updates the data in a Pivot Table or Pivot Chart report if the source data chas changed
+
+Select one:
+Refresh
+Format Report
+Show Detail
+Pivot Table
+Feedback
+The correct answer is: Refresh
+Question 195
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is not a valid data type in excel
+
+Select one:
+Number
+Character
+Date/time
+Label
+Feedback
+The correct answer is: Character
+Question 196
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The result of the following function: =YEAR(NOW) is 2014.
+Select one:
+a. FALSE – because this is nested function and the NOW function is missing its brackets
+b. TRUE - because NOW function returns both the current date and the current time.
+Feedback
+The correct answer is: FALSE – because this is nested function and the NOW function is missing its brackets
+Question 197
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+C1 contains a random DATE.
+
+To confirm C1 is in the weekends or not, the needed function is:
+
+Select one:
+=IF(OR(WEEKDAY(C1)=7,WEEKDAY(C1)=1), “Weekend”, “Weekday”)
+=IF(OR(TEXT(C1, “dddd”)= “Saturday”,TEXT(C1, “dddd”)= “Sunday”), “Weekend”, “Weekday”)
+Both of the others are usable
+Feedback
+The correct answer is: Both of the others are usable
+Question 198
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can use the formula pallette to
+
+Select one:
+create and edit formula containing functions
+Copy a range of cells
+Enter assumptions data
+Format cells containing numbers
+Feedback
+The correct answer is: create and edit formula containing functions
+Question 199
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+When you link data maintained in Excel workbook to a Word document
+
+Select one:
+The Word document contains a reference to the original source application
+The word document contains a copy of the actual data
+The Word document cannot be edited
+The word document must contain a hyperlink
+Feedback
+The correct answer is: The Word document contains a reference to the original source application
+Question 200
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Every sorting method in Excel has 2 different orientation: ASCending (smallest to largest) and DESCending (largest to smallest)
+
+Select one:
+TRUE
+FALSE
+Feedback
+The correct answer is: TRUE
+Question 201
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Insert number 1 into A1. Then number 2 into A2. What would be the result of this formula entering in A3: =A1+(A1<A2)
+Select one:
+a. 0
+b. 2
+c. 1
+d. An error.
+Feedback
+The correct answer is: 2
+Question 202
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+When you insert an Excel file into a Word document, the data are
+
+Select one:
+Linked
+Embedded
+Placed in a word table
+Hyperlinked
+Feedback
+The correct answer is: Placed in a word table
+Question 203
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In B1 is a number: 12345
+
+What is the result of:
+
+=MID(B1,1,2)+MID(B1,2,1)+MID(B1,3,1)
+
+Select one:
+16
+#N/A
+#VALUE
+6
+17
+Feedback
+The correct answer is: 17
+Question 204
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Gridlines
+Select one:
+a. Maybe turned on or off for printing
+b. All of the others
+c. Maybe turned off for displaying but turned on for printing
+d. Maybe turned off for displaying and printing.
+Feedback
+The correct answer is: All of the others
+Question 205
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is correct syntax in Excel?
+
+Select one:
+ =IF(LogicalTest, TrueResult, FalseResult)
+ =IF(LogicalTest, TrueResult), IF(LogicalTest, FalseResult)
+=IF(LogicalTest, TrueResult) (LogicalTest, FalseResult)
+=IF(LogicalTest, (TrueResult, FalseResult))
+Feedback
+The correct answer is:  =IF(LogicalTest, TrueResult, FalseResult)
+Question 206
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In Excel, to recognize the data type of a single cell, we will look at the default ALIGNMENT of the data. Now choose the correct statement:
+Select one:
+a. Dates are counted as numbers so they are right-aligned
+b. Dates are counted as logical values so they are middle-aligned
+c. Dates are counted as texts so they are left-aligned
+Feedback
+The correct answer is: Dates are counted as numbers so they are right-aligned
+Question 207
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+MS Excel provides the default value for step in Fill Series dialog box
+
+Select one:
+0
+10
+5
+1
+Feedback
+The correct answer is: 1
+Question 208
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In C1 input a random Date of a random year in August (I.e. ??-08-????)
+
+The result of =EOMONTH(C1,0) will always be:
+
+Select one:
+29
+28
+31
+None of the others.
+Feedback
+The correct answer is: 31
+Question 209
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+When you copy a formula
+
+Select one:
+Excel edits cell references in the newly copied formula
+Excel doesn’t adjust relative cell references
+Excel adjusts absolute cell references
+Excel erases the original copy of the formula
+Feedback
+The correct answer is: Excel edits cell references in the newly copied formula
+Question 210
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Weight refers to
+
+Select one:
+Upright or slanted shape
+The height of the printed character
+The print density of characters
+The design and appearance of characters
+Feedback
+The correct answer is: The print density of characters
+Question 211
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+How can you remove borders applied in cells?
+
+Select one:
+Choose None on Border tab of Format cells
+Choose Outline on Border tab of Format cells
+Choose No color on Fill tab of Format cells
+Choose Inside on Border tab of Format cells
+Feedback
+The correct answer is: Choose None on Border tab of Format cells
+Question 212
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What happens when you press Ctrl + X after selecting some cells in Excel?
+
+Select one:
+The cells selected are marked for cutting
+The selected cells are deleted and the cells are shifted left
+The cell content of selected cells disappear from cell and stored in clipboard
+The selected cells are deleted and cells are shifted up
+Feedback
+The correct answer is: The cells selected are marked for cutting
+Question 213
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In a worksheet you can select
+
+Select one:
+a.   The entire worksheet
+c.   Columns
+a, b, and c
+ 
+b.   Rows
+Feedback
+The correct answer is: a, b, and c
+ 
+Question 214
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+From B1 to B15, insert a list of number: 1 to 15.
+
+The result of: =INDEX(B:B,5,1) is equal to =MATCH(5,B:B,0)
+
+Select one:
+TRUE
+FALSE
+Feedback
+The correct answer is: TRUE
+Question 215
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+When you insert an excel file into a word document. The data are
+
+Select one:
+Linked
+Hyperlinked placed in a word table
+Use the word menu bar and toolbars
+Embedded
+Feedback
+The correct answer is: Linked
+Question 216
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+How to specify cell range from A9 to A99 in Excel?
+
+Select one:
+(A9 : A99)
+(A9 to A99)
+(A9 – A99)
+(A9, A99)
+Feedback
+The correct answer is: (A9 : A99)
+Question 217
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of these following items are NOT allowed to assign a hyperlink in
+Select one:
+a. A rectangle shape
+b. A text
+c. A picture
+d. None of the others
+Feedback
+The correct answer is: A picture
+Question 218
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following options is appropriate to show the
+
+numbers 9779851089510 in a cell?
+
+Select one:
+Place the character TX before the number
+Apply the Text format in the cell and type the numbers
+Enclose the number is brackets
+Place the character T before the number
+Feedback
+The correct answer is: Apply the Text format in the cell and type the numbers
+Question 219
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+How are data organized in a spreadsheet?
+
+Select one:
+Rows and columns
+Lines and spaces
+Layers and planes
+Height and width
+Feedback
+The correct answer is: Rows and columns
+Question 220
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Advanced Filter CAN be used to remove duplicated values in a table while Pivot table CANNOT.
+
+Select one:
+TRUE
+FALSE
+Feedback
+The correct answer is: FALSE
+Question 221
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Given the two formulas:
+
+=COUNTIF(Range,Criteria)
+
+=SUMIF(Range,Criteria,SumRange)
+
+The first two fields RANGE and CRITERIA in these two work EXACTLY the same.
+
+Select one:
+TRUE
+FALSE
+Feedback
+The correct answer is: TRUE
+Question 222
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Clear the contents by pressing “DELETE” key from a keyboard will
+
+clear
+
+Select one:
+Text Only
+Both Contents and Format
+Contents Only
+Format Only
+Feedback
+The correct answer is: Contents Only
+Question 223
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ The cell reference for a range of cells that starts in cell B1 and goes over to column G and down to row 10 is
+
+Select one:
+B1:G10
+G1-G10
+B1.G10
+B1;G10
+Feedback
+The correct answer is: B1:G10
+Question 224
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Comments put in cells are called
+
+Select one:
+Web tip
+Smart tip
+Cell tip
+Soft tip
+Feedback
+The correct answer is: Cell tip
+Question 225
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+How do you change column width to fit the contents?
+
+Select one:
+All of above
+Double click the boundary to the right of the column heading
+Single-click the boundary to the left to the column heading
+Press Alt and single click anywhere in the column
+Feedback
+The correct answer is: Double click the boundary to the right of the column heading
+Question 226
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The HYPERLINK tool in Excel can actually help in making a web-interface spreadsheet
+
+Select one:
+FALSE
+TRUE
+Feedback
+The correct answer is: TRUE
+Question 227
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+COUNTIF() can only count within 1 condition while COUNTIFS can do it with multiple conditions.
+Select one:
+a. True
+b. False
+Feedback
+The correct answer is: True
+Question 228
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The method to select the WHOLE column A is:
+Select one:
+a. Typing in the cell address: A1:A1000
+b. Clicking in A1 and hit: Ctrl – Shift – Down Arrow
+c. Typing in the cell address: A1:ROW()
+d. Typing in the cell address: A1:A100
+Feedback
+The correct answer is: Clicking in A1 and hit: Ctrl – Shift – Down Arrow
+Question 229
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In COUNTIF and SUMIF functions:
+Select one:
+a. “*” means multiple characters and “_” means exactly 1 character
+b. “*” means multiple characters and “?” means exactly 1 character
+c. “_” means multiple characters and “*” means exactly 1 character
+d. “?” means multiple characters and “*” means exactly 1 character
+Feedback
+The correct answer is: “*” means multiple characters and “?” means exactly 1 character
+Question 230
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Merge cells option can be applied from
+
+Select one:
+Formatting toolbar
+Format Cells dialog box Alignment Tab
+Both of above
+None of above
+Feedback
+The correct answer is: Format Cells dialog box Alignment Tab
+Question 231
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+To enable Filter option in a table, the hotkey to use is
+Select one:
+a. Ctrl + Alt + Del
+b. Ctrl + Shift + F
+c. Ctrl + Shift + L
+d. Ctrl + F1
+Feedback
+The correct answer is: Ctrl + Shift + L
+Question 232
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Long text can be broken down into many lines within a cell. You can do this through
+
+Select one:
+All of above
+Justify in Edit >> Cells
+Wrap Text in Format >> Cells
+Text Wraping in Format >> Cells, Layout tab
+Feedback
+The correct answer is: Wrap Text in Format >> Cells
+Question 233
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+$A$1 and A$1 will share the same meaning if the function is about to be dragged to the RIGHT.
+
+Select one:
+FALSE
+TRUE
+Feedback
+The correct answer is: FALSE
+Question 234
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+There is 1 bacteria in a bottle. Every 6 hours, the bacteria will replicate itself and therefore double the number of them. How many bacteria are there after a WHOLE day?
+Select one:
+a. 16
+b. 8
+c. 4
+d. 2
+Feedback
+The correct answer is: 16
+Question 235
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What is the DEFAULT chart type when you hit ALT + F1 to draw a chart in Excel?
+
+Select one:
+Column chart
+Scatter Chart
+Pie chart
+Line Chart
+Feedback
+The correct answer is: Column chart
+Question 236
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Without using the mouse or the arrow keys, what is the fastest way of getting to cell A1 in a spreadsheet?
+
+Select one:
+Press Shift + Home
+Press Home
+Press Ctrl +Home
+Press Alt + Home
+Feedback
+The correct answer is: Press Ctrl +Home
+Question 237
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Each excel file is called a workbook because
+
+Select one:
+You have to work hard to create it
+It can contain many sheets including worksheets and chart sheets
+It can contain text and data
+It can be modified
+Feedback
+The correct answer is: It can contain many sheets including worksheets and chart sheets
+Question 238
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The result of this function: =INDEX(B:B,3,1) will be the data inside cell:
+
+Select one:
+B1
+B3
+B2
+B4
+#VALUE
+Feedback
+The correct answer is: B3
+Question 239
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+We CANNOT use HLOOKUP to search for data in the UPPER row of the reference table.
+
+Select one:
+TRUE
+FALSE
+Feedback
+The correct answer is: TRUE
+Question 240
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Hiding the data in a table will change the ouput of its related chart.
+Select one:
+a. TRUE
+b. FALSE
+Feedback
+The correct answer is: TRUE
+Question 241
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ Each excel file is a workbook that contains different sheets. Which of the following can not be a sheet in workbook?
+
+Select one:
+chart sheet
+module sheet
+data sheet
+work sheet
+Feedback
+The correct answer is: data sheet
+Question 242
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can print only an embedded chart by
+
+Select one:
+(1) and (3)
+(3) Selecting the chart before you print
+(1)  Moving the chart to a chart sheet before you print.
+(2) Formatting the chart before you print
+Feedback
+The correct answer is: (1) and (3)
+Question 243
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Data can be arranged in a worksheet in a easy to understand manner using
+
+Select one:
+auto formatting
+changing fonts
+all of above
+applying styles
+Feedback
+The correct answer is: all of above
+Question 244
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Select a range in a spreadsheet then hit Tab continuosly,
+Select one:
+a. The pointer will end up in the last column of the spreadsheet.
+b. It will cancel the range selection.
+c. The pointer will move from left to right scanning the whole table.
+Feedback
+The correct answer is: The pointer will move from left to right scanning the whole table.
+Question 245
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+While Finding and Replacing some data in Excel, which of the following statement is valid?
+
+Select one:
+None are valid
+Excel does not have option to match case for find
+Both are valid
+You can Find and Replace within the sheet or workbook
+Feedback
+The correct answer is: You can Find and Replace within the sheet or workbook
+Question 246
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can set Excel in Automatic or Manual calculation mode. If it is in manual mode which key you will press to update the formula values?
+
+Select one:
+F5
+F8
+F9
+F11
+Feedback
+The correct answer is: F9
+Question 247
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is invalid statement?
+
+Select one:
+Some picture can be applied as a background of a sheet
+You can set the column width automatically fit the amount of text
+Sheet tabs can be colored
+The width of a row can be specified manually or fit automatically
+Feedback
+The correct answer is: The width of a row can be specified manually or fit automatically
+Question 248
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The Name box on to the left of formula bar
+
+Select one:
+None of above
+shows the name of workbook currently working on
+shows the name of cell or range currently working on
+ shows the name of worksheet currently working on
+Feedback
+The correct answer is: shows the name of cell or range currently working on
+Question 249
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Excel probably considers the cell entry January 1, 2000 to be a
+
+Select one:
+Value
+Text string
+Label
+Formula
+Feedback
+The correct answer is: Value
+Question 250
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The INTERSECTION of a row and a column is called a
+Select one:
+a. cell
+b. table
+c. there is no proper name for that kind of selection
+d. range
+Feedback
+The correct answer is: cell
+Question 251
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In A1 to A5 input the same formula: =“”
+
+In A6 is the function: =COUNTBLANK(A1:A5)
+
+What is the result of A6
+
+Select one:
+0
+2
+1
+5
+An error
+Feedback
+The correct answer is: 5
+Question 252
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+To insert three columns between columns D and E you would
+
+Select one:
+Select column D
+Select column E
+Select columns E, F and G
+Select columns D, E  and F
+Feedback
+The correct answer is: Select column E
+Question 253
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Can you set 0.5 inch left indentation for a cell in Excel?
+
+Select one:
+Indentation can be set from Format Cells dialog box
+The indentation can be specified only when printing
+You can specify indentation only if you turn the rulers on
+Excel does not have indentation feature
+Feedback
+The correct answer is: Indentation can be set from Format Cells dialog box
+Question 254
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+To view a cell comment
+
+Select one:
+click the edit comment command on the insert menu
+click the display comment command on the window menu
+click the comment command on the view menu
+position the mouse pointer over the cell
+Feedback
+The correct answer is: position the mouse pointer over the cell
+Question 255
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The method to select the WHOLE column C is:
+
+Select one:
+Clicking in C1 and hit: Ctrl – Shift – Down Arrow
+Typing in the cell address: C1:C100
+Typing in the cell address: C1:ROW()
+Typing in the cell address: C1:C1000
+Feedback
+The correct answer is: Clicking in C1 and hit: Ctrl – Shift – Down Arrow
+Question 256
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+What does the VLOOKUP function do?
+
+Select one:
+a. All of above
+b. Finds related records
+c. Checks whether text is the same in one cell as in the next
+d. Looks up text that contain ‘v’
+Feedback
+The correct answer is: Finds related records
+Question 257
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+COUNTIF() can only count within 1 condition while COUNTIFS can do it with multiple conditions.
+
+Select one:
+FALSE
+TRUE
+Feedback
+The correct answer is: TRUE
+Question 258
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+There are EXACTLY 8 tabs in the Excel Ribbon.
+Select one:
+a. TRUE
+b. FALSE
+Feedback
+The correct answer is: FALSE
+Question 259
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+It is acceptable to let long text flow into adjacent cells on a worksheet when
+
+Select one:
+no data will be entered in the adjacent cells
+data will be entered in the adjecent cells
+there is no suitable abbrevition for the text
+there is not time to format the text
+Feedback
+The correct answer is: no data will be entered in the adjacent cells
+Question 260
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The format of one function in Excel is
+Select one:
+a. =FunctionName()
+b. =FunctionName(Argument1,Argument2…)
+c. All of the others
+Feedback
+The correct answer is: All of the others
+Question 261
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Selecting the Column G & H then choose Insert->Columns. What will
+
+happen?
+
+Select one:
+2 Columns will be inserted after Column F
+ 2 Columns will be inserted after Column G
+2 Columns will be inserted after Column H
+2 Columns will be inserted after Column I
+Feedback
+The correct answer is: 2 Columns will be inserted after Column F
+Question 262
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ Which of the following you can paste selectively using Paste Special command?
+
+Select one:
+Validation
+Formulas
+All of above
+Formats
+Feedback
+The correct answer is: All of above
+Question 263
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+To edit data in an embedded Excel worksheet object in a Word document
+
+Select one:
+Edit the hyperlink
+Use the Word menu bar and toolbars
+Edit the data in a Excel source application
+Use the Excel menu bar and toolbars inside the word application
+Feedback
+The correct answer is: Use the Excel menu bar and toolbars inside the word application
+Question 264
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following methods cannot be used to edit the content of cell?
+
+Select one:
+Double clicking the cell
+Pressing F2
+Pressing the Alt key
+Clicking the formula bar
+Feedback
+The correct answer is: Pressing the Alt key
+Question 265
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Except for the ……. function, a formula with a logical function will shows either TRUE or FALSE as a result.
+Select one:
+a. AND
+b. IF
+c. OR
+d. NOT
+Feedback
+The correct answer is: IF
+Question 266
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ The command Edit >> Fill Across Worksheet is active only when
+
+Select one:
+When no sheet is selected
+When many sheets are selected
+One sheet is selected
+None of above
+Feedback
+The correct answer is: When many sheets are selected
+Question 267
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Typing: =A1=A2+A2 into cell A3. The result in A3 will be
+Select one:
+a. Either TRUE or FALSE
+b. An error
+c. A number
+d. A blank
+Feedback
+The correct answer is: Either TRUE or FALSE
+Question 268
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+In A1,A2 and A3 relatively input these numbers: 1,2, and 3. What would be the result of the function: =MIN(A1:A3, “e”)
+Select one:
+a. An Error
+b. 2
+c. 3
+d. 1
+Feedback
+The correct answer is: An Error
+Question 269
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+The nature of some complicated functions such as COUNTIF or SUMPRODUCT is actually a combination of two other functions.
+
+(I.e. COUNTIF is IF then COUNT, SUMPRODUCT is PRODUCT then SUM)
+
+Select one:
+FALSE
+TRUE
+Feedback
+The correct answer is: TRUE
+Question 270
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ The numbers in our worksheet look like this: 1000. You want them to look like this: $1,000.00. How can you accomplish this?
+
+Select one:
+Select Format > Money from the menu
+None of these
+Click the Currency Style button on the formatting toolbar
+You have to retype everything and manually add the dollar signs, commas, and decimals.
+Feedback
+The correct answer is: Click the Currency Style button on the formatting toolbar
+Question 271
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is not true about Find and Replace in Excel
+
+Select one:
+You can search by rows or columns or sheets
+You can search for bold and replace with italics
+You can decide whether to look for the whole word or not
+You can search in formula too
+Feedback
+The correct answer is: You can search by rows or columns or sheets
+Question 272
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following action removes a sheet from workbook?
+
+Select one:
+Select the sheet then choose Format >> Sheet >> Hide
+Both of above
+Select the sheet, then choose Edit >> Delete Sheet
+None of above
+Feedback
+The correct answer is: Select the sheet, then choose Edit >> Delete Sheet
+Question 273
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+ When you start typing the same value as of some cells on same column, Excel automatically shows that text. This feature is known as
+
+Select one:
+AutoCorrect
+AutoFormat
+AutoComplete
+AutoFill
+Feedback
+The correct answer is: AutoComplete
+Question 274
+Not answered
+Marked out of 1.00
+Not flaggedFlag question
+Question text
+You can open the Sort dialog box by choosing Sort from the ….. menu
+
+Select one:
+Format
+Data
+View
+Tools
+Feedback
+The correct answer is: Data

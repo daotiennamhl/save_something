@@ -1,0 +1,18 @@
+- Ducktyping:
+    - Nếu nó đi như vịt và kêu như vịt thì nó là con vịt
+    - EAFP(Asking Forgiveness, Not Permission):
+        - cố gắng try catch chứ không if 
+        - lợi ích là sẽ không phải access vào các thuộc tính của object 2 lần khi cố gắng check xem có được quyền hay không
+        - đặc biệt có ích trong trường hợp ít exception xảy ra
+        - có thể tránh được race condition
+- Class variables vs Instance variables
+- Class method and Static method
+    - @classmethod decorator for class methods
+    - @staticmethod decorator for static methods
+- Property Decorators
+    - Getters: @property
+    - Setters: @{property_name}.setter
+    - Deleters: @{property_name}.deleter
+- Inheritance
+- Dunder(Double under) or magic methods:
+    - Thường được sử dụng cho operator overloading

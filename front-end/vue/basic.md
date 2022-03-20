@@ -1,0 +1,27 @@
+- slot:
+    - child(template) chứa <slot name='slotName' v-bind:data='parentData'>
+    - parent(sử dụng template) chứa <v-slot:slotName="parentData">
+    - shorthand: replace [v-slot:] with [#]
+    - scoped slot cho phép truyền dữ liệu từ children sang parent thông qua v-bind:data=...
+- reactivity in depth:
+    - Tất cả các properties được định nghĩa trong Vue's instance data option là reative. Nghĩa là khi chúng thay đổi thì các component sẽ automatically updated và re-rendered nếu cần thiết.
+    - Những properties đó được convert thành getter và setter trong suốt quá trình initialization.
+    - Change detection caveats:
+        - Thêm mới hoặc xóa object property của vue instance
+        - array item bị sửa đổi bởi truy cập index trong array
+        - => cách giải quyết trong 2 trường hợp này là dùng Vue.set
+    - Vue.nextTick(callback): thông thường sau khi thay đổi data trong vue instance thì component sẽ không render ngay lập tức, nó sẽ đợi khi queue được flushed. Thông thường chúng ta sẽ không quan tâm đến điều này nhưng khi chúng ta muốn làm gì đó phụ thuộc vào post-update DOM state thì có thể dùng Vue.nextTick(callback) ngay sau khi data được thay đổi, khi đó callback sẽ được gọi ngay sau khi DOM được update.
+- mixins:
+    - Sử dụng pure functions để không sử đổi bất cứ thứ gì bên ngoài own scope
+    - merging mixin with own component:
+        - data của own component sẽ được ưu tiên sử dụng khi cả 2 cùng chứa data chung.
+        - với hook functions: mixin hooks sẽ được gọi trước own hooks.
+        - với hook objects: 
+            - ví dụ methods, components, directives
+            - sẽ được merge chung object
+            - khi conflict thì own component sẽ được ưu tiên sử dụng
+- memory leak:
+    - khi sử dụng third-party library mà tạo their own instance and/or manipulate the DOM. thì cần phải clean manually bằng cách destroy nó trước khi component bị destroy(gọi ở hàm beforeDestroy())
+- Virtual DOM: 
+    - The virtual DOM is a tree-like data structure of JavaScript objects representing DOM nodes that are managed by Vuejs.
+    - Dùng VDOM nhanh hơn thông thường đáng kể vì nó dùng javascript Object để quản lý. Vuejs sẽ tổ chức DOM updates theo loạt để hiệu quả hơn.

@@ -1,0 +1,24 @@
+- mkdir
+    - os.mkdir(): chỉ tạo được folder ngay tại thư mục đó
+    - os.makedirs(): 
+        - tạo được thư mục recursive
+        - ví dụ: folder1/folder2
+- rmdir
+    - rmdir
+    - removedirs
+- os.walk()
+- os.path.
+    - join(): join dir and path mà không phải lo lắng về dấu / bị thiếu hay bị double khi ghép dir and path
+    - dirname(): trả về directory path
+    - basename(): trả về file name
+    - split(): trả về dir and file
+    - exists(): xem path có tồn tại k
+        - isdir()
+        - isfile()
+    - splitext(): split path to root and extension
+    - listdir(): return list dir and file in a folder
+    - rename(old_name, new_name): thay tên file
+- get env fron .env:
+    - from dotenv import dotenv_values
+    - config = dotenv_values(".env")
+    - username = config["username"]

@@ -1,0 +1,11 @@
+- HAVING: filter values after they have been groups
+    - while WHERE is used to filter records before any groupings take place.
+- WINDOW FUNCTION:
+    - thực hiện 1 tính toán trên 1 tập hợp các hàng trong bảng mà liên quan tới hàng hiện tại.
+    - khác với aggregate function ở chỗ nó sẽ không khiến cho nhiều dòng bị nhóm thành 1 dòng ở output
+    - ROW_NUMBER()
+        - đánh số thứ tự các bản ghi theo thứ tự order theo từng partition
+    - RANK(), DENSE_RANK()
+        - xếp hạng các bản ghi theo thứ tự order theo từng partition
+- CASE: 
+    - WHEN ... END AS column_name

@@ -1,0 +1,11 @@
+- Event loop
+    - Stack:
+        - Các function gọi lồng nhau tạo thành stack of frames.
+    - Heap:
+        - Các object được phân bổ bộ nhớ trong 1 heap.
+        - heap chỉ là tên gọi biểu thị 1 vùng lớn của memory.
+    - Message queue:
+        - Mỗi message gắn với 1 function được gọi để xử lý message.
+        - Each message is processed completely before any other message is processed.
+        - cái setTimeout() hoạt động ảo vl:
+            - delay = 0 nhưng vẫn phải đợi mấy dòng code ở sau không dùng setTimeout() chạy trước thì mới đến lượt đưa vào queue

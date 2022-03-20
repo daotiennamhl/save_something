@@ -1,0 +1,14 @@
+# react-native
+  - react native is a collection of 'special' React components. Special means it knows how to compile, translate component to Native Widget.
+  - Behind the scenes: 
+    - View(e.g: <View>...</View>) ---> compiled Views(Native Views)
+    - Javascript code ---> Javascript core(Virtual Machine) <--- bridge ---> Native Platfrom Module / API
+  - Expo or React Native CLI:
+    - Expo CLI/Tool:
+      - Third-party Service (Free!)
+      - "Manage App Development"
+      - Lots of Convennience & Utility Features: Simplifies Development
+      - But: Limited to the Expo Ecosystem
+    - React native CLI:
+      - full-flex = hoàn toàn linh hoạt
+      - By React Native Team/ Community

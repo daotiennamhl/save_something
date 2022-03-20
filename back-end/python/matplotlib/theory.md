@@ -1,0 +1,18 @@
+- Bar Chart:
+    - khi mà nhiều item để display quá thì người ta không sử dụng vertical barchart mà dùng horizontal barchart. Vì lúc đó title nằm ngang sẽ không bị chèn vào nhau như lúc title nằm dọc.
+- Stack chart:
+    - dùng khi cần so sánh các thành phần với nhau theo thời gian, khác với pie chart ở chỗ pie chart chỉ so sánh được 1 lần mà không theo thời gian được
+- filling area on line plot: https://www.youtube.com/watch?v=x0Uguu7gqgk&list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_&index=5
+- Histogram:
+    - dùng khi cần nhóm các range lại, thay thế cho bar chart khi có quá nhiều detail
+    - thường dùng cho thống kê theo nhóm tuổi
+- Scatter:
+    - dùng để chỉ ra mối tương quan của 2 tập dữ liệu
+- Cách vẽ các loại chart bằng matplotlib:
+    - Line Chart: pyplot.plot(...)
+    - Bar Chart: pyplot.bar(...)
+    - Pie Chart: pyplot.pie(...)
+    - Stack plot chart: pyplot.stackplot(...)
+    - Historgram: pyplot.hist(...)
+    - Scatter: pyplot.scatter(...)
+    - Time Series Data: pyplot.plot_date(...)

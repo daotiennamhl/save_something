@@ -1,0 +1,79 @@
+- container orchestration tool
+- basic architecture:  
+    - master node
+        - API server:
+            - UI, API, CLI
+        - Controller manager: 
+            - keep tracks of whats happening in cluster
+            - detect cluster state changes
+        - Scheduler: ensures Pods placement
+        - etcd: hold state of k8s cluster, dùng để recover whole cluster
+        - Virtual network
+    - multiple worker node
+    - node
+        - Each node must be installed 3 processes:
+            - container runtime
+            - kubelet: interface with both container runtime and the node itself
+            - kube proxy: 
+
+- Pod: 
+    - abstraction of container
+    - has own IP address, IP change when pods deleted, để giải quyết vấn đề quá nhiều container, khó quản lí port cho mỗi container
+    - Service 
+        - alternative to IP address of pod
+        - have load balancer
+        - Ingress:      
+            - route traffic into the cluster
+            - 
+            - https://www.youtube.com/watch?v=80Ew_fsV4rM&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC&index=10
+        - selector will connect to Pod through label of Pod
+- Component
+    - ConfigMap: 
+        - store data like URL
+        - example: https://www.youtube.com/watch?v=EQNO_kM96Mo&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC&index=8
+    - Secret: https://www.youtube.com/watch?v=EQNO_kM96Mo&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC&index=8
+    - Volumns:
+        - remote or local
+    - Deployment:
+        - abstraction of pod
+        - for stateless application
+    - StatefulSet:
+        - specifically for Database or stateful apps
+        - vì database có state chính là data
+        - Nhưng DB thường được deploy bên ngoài k8s cho tiện
+- Minikube:
+    - create Virtual Box on your laptop
+    - Node runs in that Virtual Box
+    - 1 Node k82 cluster includes all:
+        - master process
+        - workder process
+        - container runtime
+    - for testing purposes
+=> 
+- Kubectl:
+    - CLI to interact with API server of Node in minikube
+    - Kubectl CLI for configuring the Minikube cluster
+    - Minikube CLI for start up/deleting the cluster
+    - basic command: https://www.youtube.com/watch?v=azuwXALfyRg&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC&index=6
+- YAML file:
+    - metadata:
+    - specification
+        - Template:
+            - has it's own metadata and spec section
+            - applies to Pod
+            - blueprint for a Pod
+    - Connecting component:
+        - labels and selector
+        - ports:
+            - service has [targetPort] will equal [containerPort] of Deployment to mapping
+            - nodePort for external Service: tức là external IP address để truy cập được vào từ bên ngoài
+            - ClusterIP or Internal Service is default Service
+    - status:
+        - compare what is desired state and what is actual state
+
+- Helm:
+    - package manager for k8s
+    - helm charts:
+        - bundles of YAML files 
+        - template engine
+        - directory structure:

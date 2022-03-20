@@ -1,0 +1,19 @@
+- flex giúp thiết kế responsive linh hoạt mà không phải dùng postion hay float
+- flex-container: 
+  - flex-direction: row, col, ...
+  - flex-wrap: wrap, nowrap(các item sẽ bị co lại, không giữ đúng kích cỡ define cho các items)
+  - flex-flow = flex-direction + flex-wrap
+  - justify-content(main axis): center, flex-start, flex-end, space-around, space-between
+  - align-items(cross axis): 
+    - mô tả cách tất cả các items được căn chỉnh bên trong container
+    - center, flex-start, flex-end, stretch
+  - align-content(cross axis): 
+    - dùng cho flex box multi lines
+    - space-between, space-around, stretch, center, flex-start, flex-end
+- flex-items:
+  - order: thứ tự các items
+  - flex-shrink: items co lại bao nhiêu so với các items khác
+  - flex-grow: items grow bao nhiêu so với các items khác, tính theo phần còn thừa lại khi lấy tổng số đo của container - đi tổng số đo của các items rồi lấy tỷ lệ đó cộng vào mỗi item.
+  - flex-basis: chỉ định độ dài ban đầu của item đó
+  - flex = flex-grow + flex-shrink + flex-basis
+  - align-self = overrides the default alignment set by the container
