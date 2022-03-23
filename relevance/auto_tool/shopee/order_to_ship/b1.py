@@ -97,7 +97,7 @@ for detail_link in detail_links:
         try:
             shop_note = browser.find_element_by_xpath("//*[@class='note shopee-card']").get_attribute('content')
         except: pass
-        dia_chi = browser.find_element_by_class_name('ship-address').find_element_by_xpath('..').text[:13]
+        dia_chi = browser.find_element_by_class_name('ship-address').find_element_by_xpath('..').text
         raw_shipping_fee = browser.find_elements_by_class_name('income-value')[1].text
         phi_van_chuyen = convertTextToNumber(raw_shipping_fee)
         raw_transaction_fee = browser.find_elements_by_class_name('income-value')[-2].text
@@ -153,7 +153,7 @@ for detail_link in detail_links:
         data.append({
             MA_VAN_DON: ma_van_don,
             DVVC: dict_dvvc[dvvc],
-            DIA_CHI: dia_chi,
+            DIA_CHI: f'{ma_van_don}\n{san_pham}\n{dia_chi}',
             SAN_PHAM: san_pham,
             LUU_Y: luu_y + shop_note,
             DOANH_THU: doanh_thu,

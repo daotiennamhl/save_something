@@ -51,6 +51,7 @@ dict_product_import_price = {
     'cành chiết leo': 10000,
     'kích rễ': 3000,
     'hồng 8k': 3500,
+    'hồng 9k': 5000,
     'hồng': 3500,
     'huệ 13k': 2000,
     'huệ 9k': 1500,
@@ -71,6 +72,7 @@ dict_product_import_price = {
     'gốc tỷ muội': 8000,
     'hồng 20': 8000,
     'hồng kít': 8000,
+    'sứ thái kép 209k': 150000,
 }
 
 data_file = 'data_order_to_ship.csv'
