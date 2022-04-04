@@ -45,7 +45,8 @@ dict_dvvc = {
 dict_product_import_price = {
     'leo': 6000,
     'hồng 13': 6000,
-    'hồng 12': 6000,
+    'hồng 12': 5000,
+    'hồng 11': 6000,
     'hồng 15k': 6000,
     'cành chiết gỗ': 10000,
     'cành chiết leo': 10000,
@@ -69,10 +70,17 @@ dict_product_import_price = {
     'giá thể vỏ thông': 5000,
     'dây tây 30': 15000,
     'đồng tiền kép': 2000,
-    'gốc tỷ muội': 8000,
+    'gốc tỷ muội': 6000,
     'hồng 20': 8000,
     'hồng kít': 8000,
     'sứ thái kép 209k': 150000,
+    'cây giống ghép mắt': 5000,
+    'hồng ghép mắt': 5000,
+    'gốc ghép mắt': 5000,
+    'hồng mới': 6000,
+    'hồng đại': 5000,
+    'huệ kép to 1/4': 40000,
+    'huệ kép nhỏ': 40000,
 }
 
 data_file = 'data_order_to_ship.csv'
