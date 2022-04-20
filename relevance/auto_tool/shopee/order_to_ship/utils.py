@@ -11,8 +11,8 @@ def waitElement(xpath, browser, second = 5):
     )
 
 
-def writeToFile(filename, content, delimiter='\n'):
-    with open(filename, 'a', encoding="utf-8") as f:
+def writeToFile(filename, content, delimiter='\n', mode='a'):
+    with open(filename, mode, encoding="utf-8") as f:
         f.write(content + delimiter)
 
 def getTime():
@@ -22,4 +22,4 @@ def convertTextToNumber(text):
     return int(re.sub(r'[^\d]', '', text))
 
 def Buy10Give2(quantity):
-    return quantity + int(quantity/10)
+    return quantity

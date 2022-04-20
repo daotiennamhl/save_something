@@ -5,7 +5,9 @@ import csv
 import traceback
 from consts import *
 from utils import *
+from get_product_utils import *
 from datetime import datetime, timedelta
+import re
 
 # option
 options = webdriver.ChromeOptions()
@@ -18,6 +20,7 @@ options.add_argument('--ignore-certificate-errors-spki-list')
 # link = r'https://banhang.shopee.vn/portal/sale/order?type=unpaid'
 link = r'https://banhang.shopee.vn/portal/sale/shipment?type=toship'
 # link = r'https://banhang.shopee.vn/portal/sale/order?type=shipping'
+# link = r'https://banhang.shopee.vn/portal/sale/shipment?type=toship&source=to_process'
 login_link = r'https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F'
 browser = webdriver.Chrome(executable_path="./chromedriver.exe", chrome_options=options)
 browser.maximize_window()
@@ -30,7 +33,7 @@ tong_gia_nhap = 0
 
 # login
 browser.get(login_link)
-waitElement('//button[text()="Đăng nhập"]', browser, 5)
+waitElement('//button[text()="Đăng nhập"]', browser, 10)
 sleep(1)
 browser.find_element_by_xpath('//input[@name="loginKey"]').send_keys(username)
 browser.find_element_by_xpath('//input[@name="password"]').send_keys(password)
@@ -74,11 +77,14 @@ except Exception as e: # one page
     pass
 
 writeToFile(log_file, getTime() + f' {len(detail_links)} orders!')
+writeToFile('log.txt', '' ,mode='w')
+
 # go to detail
 for detail_link in detail_links:
     try:
         browser.get(detail_link)
         waitElement('//*[@class="qty"]', browser, 10)
+        browser.find_element_by_class_name('toggle').click()
         sleep(1)
         log_info_header = browser.find_element_by_class_name('log-info-header')
         ma_van_don = ''
@@ -89,11 +95,15 @@ for detail_link in detail_links:
         except:
             pass
         luu_y = ''
+        shop_note = ''
         try:
             luu_y = browser.find_element_by_xpath("//*[@class='description indent-more']").text
-        except:
-            pass
-        dia_chi = browser.find_element_by_class_name('ship-address').text.rsplit(', ')[-1]
+        except: pass
+        try:
+            shop_note = browser.find_element_by_xpath("//*[@class='note shopee-card']").get_attribute('content')
+        except: pass
+        dia_chi = browser.find_element_by_class_name('ship-address').find_element_by_xpath('..').text
+        sdt = re.findall(r'\b\d+\b', dia_chi)[0]
         raw_shipping_fee = browser.find_elements_by_class_name('income-value')[1].text
         phi_van_chuyen = convertTextToNumber(raw_shipping_fee)
         raw_transaction_fee = browser.find_elements_by_class_name('income-value')[-2].text
@@ -121,7 +131,6 @@ for detail_link in detail_links:
                 pass
         
         # lấy danh sách sản phẩm trong 1 đơn
-        san_pham = []
         dict_products = {}
         product_list_element = browser.find_elements_by_class_name('product-list-item')[1:]
         for product_element in product_list_element:
@@ -138,20 +147,19 @@ for detail_link in detail_links:
                     qty *= int(q)
                     sku = s.strip()
                 dict_products[sku] = dict_products.get(sku, 0) + qty
-        for item in dict_products.items():
-            p_sku, p_qty = item
-            p_qty = Buy10Give2(p_qty)
-            san_pham.append(f'{p_qty} {p_sku}')
-            dict_products[p_sku] = p_qty
-            dict_total_products[p_sku] = dict_total_products.get(p_sku, 0) + p_qty
-        san_pham = ' + '.join(san_pham)
 
+        Buy10GiveKichRe(dict_products)
+        
+        san_pham = getStringProductFromDictProduct(dict_products, dict_total_products)
+
+        writeToFile('log.txt', f'{sdt}, {ma_van_don}, {san_pham}')
+    
         data.append({
+            SDT: sdt,
             MA_VAN_DON: ma_van_don,
             DVVC: dict_dvvc[dvvc],
-            DIA_CHI: dia_chi,
             SAN_PHAM: san_pham,
-            LUU_Y: luu_y,
+            LUU_Y: luu_y + shop_note,
             DOANH_THU: doanh_thu,
             TRU_VON: doanh_thu - sum(dict_products[sku] * dict_product_import_price[sku] for sku in dict_products.keys()),
             PHI_VAN_CHUYEN: phi_van_chuyen,
@@ -203,3 +211,5 @@ with open(data_file, 'w', newline='', encoding="utf-8") as csvfile:
 
 writeToFile(log_file, getTime() + " DONE!\n")
 print('DONE !')
+
+### code này giúp lấy thêm số điện thoại + địa chỉ cụ thể của từng khách hàng
