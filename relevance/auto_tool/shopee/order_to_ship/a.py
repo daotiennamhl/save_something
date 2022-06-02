@@ -103,7 +103,7 @@ for detail_link in detail_links:
             shop_note = browser.find_element_by_xpath("//*[@class='note shopee-card']").get_attribute('content')
         except: pass
         dia_chi = browser.find_element_by_class_name('ship-address').find_element_by_xpath('..').text
-        sdt = re.findall(r'\b\d+\b', dia_chi)[0]
+        sdt = re.findall(r'\b\d{10,15}\b', dia_chi)[0]
         raw_shipping_fee = browser.find_elements_by_class_name('income-value')[1].text
         phi_van_chuyen = convertTextToNumber(raw_shipping_fee)
         raw_transaction_fee = browser.find_elements_by_class_name('income-value')[-2].text

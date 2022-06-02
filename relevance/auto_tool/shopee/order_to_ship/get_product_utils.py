@@ -1,4 +1,6 @@
 dict_product_import_price = {
+    'huệ mưa 4 củ': 1000,
+    'huệ mưa 3 củ': 1000,
     'kích rễ': 3000,
     'Lời tri ân': 0,
     'cóc thái': 18000,
@@ -25,6 +27,7 @@ dict_product_import_price = {
     'hồng đại': 5000,
     'hồng': 5000,
     'leo': 6000,
+    'hồng cổ': 5000,
 }
 
 giveKichRe = ['gốc tỷ muội', 'gốc ghép mắt', 'hồng mới', 'hồng đại', 'hồng', 'leo']
