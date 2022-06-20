@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 10 15:40:36 2022
+# Make data base, printed on Sat Jun 18 16:36:02 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -21,7 +23,7 @@ USERPROFILE = C:\Users\Nam
 # environment
 LOCALAPPDATA = C:\Users\Nam\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3af1336c-c09e-49b1-8d5d-bf52b61f1c6e-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-83174cf1-9400-4230-b7d7-3ab1069e62d1-sock
 # environment
 VSCODE_CWD = C:\Users\Nam\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -37,7 +39,9 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12732_MCHNYTZKAFEJHJMI
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14132_NJVWOMVSCOQLYMMX
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -71,7 +75,7 @@ CURDIR := d:/Learning/learn/save_something
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -91,7 +95,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 12732
+VSCODE_PID = 14132
 # makefile (from 'Makefile', line 1)
 BRANCH = master
 # automatic
@@ -150,7 +154,8 @@ PROGRAMW6432 = C:\Program Files
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
 +F = $(notdir $+)
-# environment
+# environment 
+
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 USERDOMAIN = DESKTOP-RET4OHN
@@ -158,8 +163,6 @@ USERDOMAIN = DESKTOP-RET4OHN
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := push
 # default
@@ -205,7 +208,7 @@ PROCESSOR_REVISION = 3c03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=96/1024=9%, Rehash=0, Collisions=8/123=7%
+# Load=97/1024=9%, Rehash=0, Collisions=9/124=7%
 
 # Pattern-specific Variable Values
 
@@ -282,6 +285,6 @@ all:
 # strcache performance: lookups = 33 / hit rate = 18%
 # hash-table stats:
 # Load=27/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Fri Jun 10 15:40:36 2022
+# Finished Make data base on Sat Jun 18 16:36:02 2022
 
  
