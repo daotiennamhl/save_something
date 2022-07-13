@@ -37,20 +37,25 @@ with open(text_file, 'r', encoding="utf-8") as f:
 
 for i, word in enumerate(words):
     browser.get(getLink(word))
-    waitElement('//h1[@class="headword"]', browser, 15)
-    
-    # word, prn, mean, *ex
-    prnAm = browser.find_element_by_class_name('phons_n_am')
-    prn = prnAm.find_element_by_class_name('phon').text
-    mean = browser.find_element_by_class_name('def').text
-    listEx = browser.find_element_by_class_name('examples')
-    ex = listEx.find_elements_by_class_name('x')[:]
-    ex = list(map(lambda e: e.text, ex))
-    if (len(ex) < 2): ex.append('')
+    try: 
+        waitElement('//h1[@class="headword"]', browser, 8)
+        
+        # word, prn, mean, *ex
+        prnAm = browser.find_element_by_class_name('phons_n_am')
+        prn = prnAm.find_element_by_class_name('phon').text
+        mean = browser.find_element_by_class_name('def').text
+        listEx = browser.find_element_by_class_name('examples')
+        ex = listEx.find_elements_by_class_name('x')[:]
+        ex = list(map(lambda e: e.text, ex))
+        if (len(ex) < 2): ex.append('')
 
-    model = Model(i, word, prn, mean, *ex)
-    writeToFile(result_file, model.toString(), '', 'a')
-    print(i)
-    sleep(0.1)
+        model = Model(i, word, prn, mean, *ex)
+        writeToFile(result_file, model.toString(), '', 'a')
+        print(i)
+        sleep(0.1)
+    except Exception as e:
+        print('errr = ')
+        writeToFile('log.txt', f'{i} {traceback.format_exc()}' )
+        break
 
 browser.close()
