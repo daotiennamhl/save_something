@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 18 16:36:02 2022
+# Make data base, printed on Wed Jul 13 09:07:48 2022
 
 # Variables
 
@@ -22,8 +22,6 @@ LC_ALL = C
 USERPROFILE = C:\Users\Nam
 # environment
 LOCALAPPDATA = C:\Users\Nam\AppData\Local
-# environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-83174cf1-9400-4230-b7d7-3ab1069e62d1-sock
 # environment
 VSCODE_CWD = C:\Users\Nam\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -39,7 +37,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14132_NJVWOMVSCOQLYMMX
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4576_HEKALMMOKXNPDKWK
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -50,12 +48,10 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
-# environment
-VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Nam\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = C:\Users\Nam\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
 # environment
 LANG = C
 # default
@@ -72,8 +68,6 @@ MAKEFLAGS = pqrR
 ONEDRIVE = C:\Users\Nam\OneDrive
 # makefile
 CURDIR := d:/Learning/learn/save_something
-# environment
-VSCODE_PIPE_LOGGING = true
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
@@ -93,9 +87,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 14132
+VSCODE_PID = 4576
 # makefile (from 'Makefile', line 1)
 BRANCH = master
 # automatic
@@ -141,8 +133,6 @@ CHOCOLATEYLASTPATHUPDATE = 132883485656888548
 # environment
 LOGONSERVER = \\DESKTOP-RET4OHN
 # environment
-VSCODE_LOG_NATIVE = false
-# environment
 USERNAME = Nam
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
@@ -154,8 +144,7 @@ PROGRAMW6432 = C:\Program Files
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
 +F = $(notdir $+)
-# environment 
-
+# environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 USERDOMAIN = DESKTOP-RET4OHN
@@ -190,7 +179,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Nam\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\b2cdc7f712e18ff2ff3cd347c1990bda-1.68.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\b2cdc7f712e18ff2ff3cd347c1990bda-1.69.0-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -208,7 +197,7 @@ PROCESSOR_REVISION = 3c03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=97/1024=9%, Rehash=0, Collisions=9/124=7%
+# Load=92/1024=9%, Rehash=0, Collisions=8/119=7%
 
 # Pattern-specific Variable Values
 
@@ -216,9 +205,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key d:/Learning/learn/save_something, mtime 1654673263): 22 files, no impossibilities.
+# . (key d:/Learning/learn/save_something, mtime 1655692796): 20 files, no impossibilities.
 
-# 22 files, no impossibilities in 1 directories.
+# 20 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -279,12 +268,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 198 B / avg = 7 B
-# current buf: size = 8174 B / used = 198 B / count = 27 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 25 / storage = 186 B / avg = 7 B
+# current buf: size = 8174 B / used = 186 B / count = 25 / avg = 7 B
 
-# strcache performance: lookups = 33 / hit rate = 18%
+# strcache performance: lookups = 31 / hit rate = 19%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Sat Jun 18 16:36:02 2022
+# Load=25/8192=0%, Rehash=0, Collisions=0/31=0%
+# Finished Make data base on Wed Jul 13 09:07:48 2022
 
  

@@ -25,3 +25,13 @@
 26. UseMemo() là gì ?
 27. useRef() là gì ?
 28. useReducer() là gì ?
+
+React
+- Sự khác nhau giữa func vs class component
+- life cycle của class component
+- mapping hook vs life cycle?
+- HOC ? apply đc gì chưa?
+- useEffect hoạt động ra sao? cleanup?
+- Hook? liệt kê các hook? apply custom hook nào chưa?
+- css: specifity? flexbox? grid? feature scss?
+- js: var let const? hoisting? closure? arrow func ? bind func để làm gì?

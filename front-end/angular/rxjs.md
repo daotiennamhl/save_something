@@ -20,13 +20,14 @@
         + Thường dùng trong query input để tránh lấy cả dữ liệu cũ không dùng đến nữa
     - mergeMap:
         + Vẫn subscribe Inner Observerble khi Outer Observable mới emit ~ giữ nhiều Subscription
-        + Thường dùng nghiệp vụ liên quan đến write vào DB
+        + Thường dùng nghiệp vụ liên quan đến write vào DB, download
         + Khi tham số concurrent = 1 thì mergeMap sẽ hoạt động như concatMap
     - concatMap:
         + Inner Observable complete thì mới subscribe vào Inner Observable tiếp theo
+        + Thường dùng trong delete method
     - exhaustMap:
         + Khi Inner Observable cũ chưa complete mà có Inner Observable mới thì Inner Observable mới sẽ hoàn toàn bị bỏ qua
-        + Mình đã dùng trong trường hợp login và register
+        + Mình đã dùng trong trường hợp login, register
     - switch/concat/mergeMapTo():
         + Thay vì truyền vào project function thì truyền vào Inner Observable luôn, không quan tâm đến giá trị mà Outer Observable emit ra
 - UTILITY:
