@@ -35,9 +35,9 @@ with open(text_file, 'r', encoding="utf-8") as f:
     rows = f.read().split('\n')
     words = map(lambda r: r.split(' ')[0], rows)
 
-for word in words:
+for i, word in enumerate(words):
     browser.get(getLink(word))
-    waitElement('//h1[@class="headword"]', browser, 10)
+    waitElement('//h1[@class="headword"]', browser, 15)
     
     # word, prn, mean, *ex
     prnAm = browser.find_element_by_class_name('phons_n_am')
@@ -45,10 +45,12 @@ for word in words:
     mean = browser.find_element_by_class_name('def').text
     listEx = browser.find_element_by_class_name('examples')
     ex = listEx.find_elements_by_class_name('x')[:]
-    ex = map(lambda e: e.text, ex)
+    ex = list(map(lambda e: e.text, ex))
+    if (len(ex) < 2): ex.append('')
 
-    model = Model(word, prn, mean, *ex)
+    model = Model(i, word, prn, mean, *ex)
     writeToFile(result_file, model.toString(), '', 'a')
+    print(i)
     sleep(0.1)
 
 browser.close()
