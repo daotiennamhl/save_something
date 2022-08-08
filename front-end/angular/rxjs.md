@@ -40,14 +40,9 @@
     - finalize:
         + Được thực thi khi 1 Observable complete hoặc error -> Thường dùng để stop load spinner
 - FILTERING:
-    - first:
-    - last: 
-    - take: 
-    - takeUntil:
-    - skip:
-    - skipUntil:
-    - debounceTime:
-    - throttleTime:
+    - first,last, take, takeUntil, skip, skipUntil
+    - debounceTime: bỏ qua tất cả emitted value của outer observable khi timer đang chạy và chạy lại timer khi có value emit từ outer observable
+    - throttleTime: emit giá trị đầu tiên sau đó bỏ qua outer observable = khoảng thời gian được truyền vào
 
 - Overview:
     - Observables:

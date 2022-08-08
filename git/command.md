@@ -14,7 +14,7 @@
     git rm --cached
 # task
 ## delete all local branch 
-git branch | grep -v "development" | xargs git branch -D
+git branch | grep -v "develop" | xargs git branch -D
 ## remove all history
 git checkout --orphan latest_branch
 git add -A
