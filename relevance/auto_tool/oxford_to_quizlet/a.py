@@ -52,7 +52,9 @@ for i, row in enumerate(rows):
         ex = listEx.find_elements_by_class_name('x')[:]
         ex = list(map(lambda e: e.text, ex))
 
-        if (len(ex) < 2): ex.append('')
+        if (len(ex) < 3): 
+            ex.append('')
+            ex.append('')
         if (prn in de): prn = ''
 
         model = Model(i, word, de, prn, mean, *ex)

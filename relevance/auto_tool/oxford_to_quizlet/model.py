@@ -13,4 +13,5 @@ class Model:
 {self.mean}
 - {self.ex[0]}
 - {self.ex[1]}
+- {self.ex[2]}
 '''
