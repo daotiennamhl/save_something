@@ -39,19 +39,24 @@ with open(text_file, 'r', encoding="utf-8") as f:
 for i, row in enumerate(rows):
     if (len(row.split(' ', 1)) >= 2):
         word, de = row.split(' ', 1)
-    else: word = row
+    else: word = row; de = ''
     browser.get(getLink(word))
     try: 
-        waitElement('//h1[@class="headword"]', browser, 5)
+        waitElement('//h1[@class="headword"]', browser, 10)
         
         # word, prn, mean, *ex
         prnAm = browser.find_element_by_class_name('phons_n_am')
         prn = prnAm.find_element_by_class_name('phon').text
         mean = browser.find_element_by_class_name('def').text
-        listEx = browser.find_element_by_class_name('examples')
-        ex = listEx.find_elements_by_class_name('x')[:]
-        ex = list(map(lambda e: e.text, ex))
-
+        try:
+            listEx = browser.find_element_by_class_name('examples')
+        except: 
+            listEx = None
+            print('except')
+        if listEx:
+            ex = listEx.find_elements_by_class_name('x')[:]
+            ex = list(map(lambda e: e.text, ex))
+        else: ex = ['']    
         if (len(ex) < 3): 
             ex.append('')
             ex.append('')
