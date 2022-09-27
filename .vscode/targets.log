@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 15 16:44:15 2022
+# Make data base, printed on Mon Sep 26 08:54:24 2022
 
 # Variables
 
@@ -37,7 +37,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14968_CORVJEREDYOIWNHZ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8324_IPCXCLJMLDBWEIMG
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -51,7 +51,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Nam\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+VSCODE_CODE_CACHE_PATH = C:\Users\Nam\AppData\Roaming\Code\CachedData\74b1f979648cc44d385a2286793c226e611f59e7
 # environment
 LANG = C
 # default
@@ -69,7 +69,7 @@ ONEDRIVE = C:\Users\Nam\OneDrive
 # makefile
 CURDIR := d:/Learning/learn/save_something
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -87,7 +87,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 14968
+VSCODE_PID = 8324
 # makefile (from 'Makefile', line 1)
 BRANCH = master
 # automatic
@@ -179,7 +179,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Nam\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\b2cdc7f712e18ff2ff3cd347c1990bda-1.70.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\b2cdc7f712e18ff2ff3cd347c1990bda-1.71.2-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -274,6 +274,6 @@ all:
 # strcache performance: lookups = 31 / hit rate = 19%
 # hash-table stats:
 # Load=25/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Mon Aug 15 16:44:15 2022
+# Finished Make data base on Mon Sep 26 08:54:24 2022
 
  
