@@ -5,6 +5,7 @@ dict_product_import_price = {
     'Lời tri ân': 0,
     'cóc thái': 18000,
     'cau lùn': 16000,
+    'củ ly': 5000,
     'gang tay hươu': 6000,
     'hạt giống cải bẹ': 8000,
     'trà my 1 tán 40cm 30k': 30000,
@@ -25,8 +26,8 @@ dict_product_import_price = {
     'gốc tỷ muội': 6000,
     'gốc ghép mắt': 5000,
     'hồng mới': 6000,
-    'hồng đại': 5000,
-    'hồng': 5000,
+    'hồng đại': 3000,
+    'hồng': 3000,
     'leo': 6000,
     'hồng cổ': 5000,
 }

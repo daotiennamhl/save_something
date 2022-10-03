@@ -35,11 +35,8 @@ tong_gia_nhap = 0
 browser.get(login_link)
 waitElement('//button[text()="Đăng nhập"]', browser, 10)
 sleep(1)
-browser.find_element_by_xpath('//input[@name="loginKey"]').send_keys(username)
-browser.find_element_by_xpath('//input[@name="password"]').send_keys(password)
-sleep(1)
-browser.find_element_by_xpath('//button[text()="Đăng nhập"]').click()
-sleep(3)
+browser.find_element_by_class_name('_7nvtMo').click()
+sleep(10)
 
 # start
 browser.get(link)
