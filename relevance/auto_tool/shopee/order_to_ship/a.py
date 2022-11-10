@@ -36,7 +36,7 @@ browser.get(login_link)
 waitElement('//button[text()="Đăng nhập"]', browser, 10)
 sleep(1)
 browser.find_element_by_class_name('_7nvtMo').click()
-sleep(10)
+sleep(15)
 
 # start
 browser.get(link)
