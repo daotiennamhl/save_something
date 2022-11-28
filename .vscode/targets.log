@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Nov 10 09:54:10 2022
+# Make data base, printed on Mon Nov 28 09:10:04 2022
 
 # Variables
 
@@ -37,7 +37,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14640_MRWYTNDGLCEKEUIM
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8420_TCDHWPBSFWXKMWIK
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -51,7 +51,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Nam\AppData\Roaming\Code\CachedData\8fa188b2b301d36553cbc9ce1b0a146ccb93351f
+VSCODE_CODE_CACHE_PATH = C:\Users\Nam\AppData\Roaming\Code\CachedData\6261075646f055b99068d3688932416f2346dd3b
 # environment
 LANG = C
 # default
@@ -69,7 +69,7 @@ ONEDRIVE = C:\Users\Nam\OneDrive
 # makefile
 CURDIR := d:/Learning/learn/save_something
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -87,7 +87,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 14640
+VSCODE_PID = 8420
 # makefile (from 'Makefile', line 1)
 BRANCH = master
 # automatic
@@ -119,7 +119,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\OpenVPN\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Nam\AppData\Local\Microsoft\WindowsApps;C:\Users\Nam\AppData\Roaming\npm;C:\Users\Nam\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nam\AppData\Local\Programs\Python\Python310;C:\Users\Nam\AppData\Local\Programs\Python\Python310\Scripts;
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\OpenVPN\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Nam\AppData\Local\Microsoft\WindowsApps;C:\Users\Nam\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nam\AppData\Local\Programs\Python\Python310;C:\Users\Nam\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Nam\AppData\Roaming\npm
 # environment
 COMPUTERNAME = DESKTOP-RET4OHN
 # default
@@ -157,7 +157,8 @@ OS = Windows_NT
 # default
 MAKE_VERSION := 4.3
 # environment
-PROGRAMFILES(X86) = C:\Program Files (x86)
+PROGRAMFILES(X86) = C:\Program Files  
+(x86)
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-RET4OHN
 # environment
@@ -179,7 +180,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Nam\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\b2cdc7f712e18ff2ff3cd347c1990bda-1.73.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\b2cdc7f712e18ff2ff3cd347c1990bda-1.73.1-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -274,6 +275,6 @@ all:
 # strcache performance: lookups = 31 / hit rate = 19%
 # hash-table stats:
 # Load=25/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Thu Nov 10 09:54:10 2022
+# Finished Make data base on Mon Nov 28 09:10:04 2022
 
  

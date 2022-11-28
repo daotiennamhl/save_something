@@ -10,6 +10,7 @@ dict_product_import_price = {
     'hạt giống cải bẹ': 8000,
     'trà my 1 tán 40cm 30k': 30000,
     'trà my nhiều tán 50cm': 100000,
+    'trà my nhiều tán 60cm': 120000,
     'trà my nhiều tán 70cm': 140000,
     'đỗ quyên 79k': 50000,
     'giá thể vỏ thông': 5000,
