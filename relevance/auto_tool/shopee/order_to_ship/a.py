@@ -22,7 +22,7 @@ link = r'https://banhang.shopee.vn/portal/sale/shipment?type=toship'
 # link = r'https://banhang.shopee.vn/portal/sale/order?type=shipping'
 # link = r'https://banhang.shopee.vn/portal/sale/shipment?type=toship&source=to_process'
 login_link = r'https://shopee.vn/buyer/login?next=https%3A%2F%2Fshopee.vn%2F'
-browser = webdriver.Chrome(executable_path="./chromedriver.exe", chrome_options=options)
+browser = webdriver.Chrome(executable_path="./chromedriver", chrome_options=options)
 browser.maximize_window()
 
 data = []

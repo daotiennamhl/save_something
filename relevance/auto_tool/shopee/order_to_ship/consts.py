@@ -1,8 +1,3 @@
-from dotenv import dotenv_values
-
-config = dotenv_values(".env")
-username = config["username"]
-password = config["password"]
 
 MA_VAN_DON = 'Mã vận đơn'
 DVVC = 'ĐVVC'
