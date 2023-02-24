@@ -34,14 +34,16 @@ tong_gia_nhap = 0
 # login
 browser.get(login_link)
 waitElement('//button[text()="Đăng nhập"]', browser, 10)
-sleep(1)
+sleep(3)
 browser.find_element_by_class_name('_7nvtMo').click()
 sleep(15)
 
 # start
 browser.get(link)
-sleep(1)
+sleep(20)
 # pass through intro
+browser.find_elements_by_class_name('shopee-modal__footer-buttons')[-1].click()
+sleep(2)
 waitElement('//span[contains(text(), "Tiếp theo")]', browser, 10)
 sleep(2)
 browser.find_element_by_xpath('//span[contains(text(), "Tiếp theo")]').find_element_by_xpath('..').click()
@@ -100,7 +102,6 @@ for detail_link in detail_links:
             shop_note = browser.find_element_by_xpath("//*[@class='note shopee-card']").get_attribute('content')
         except: pass
         dia_chi = browser.find_element_by_class_name('ship-address').find_element_by_xpath('..').text
-        sdt = re.findall(r'\b\d{10,15}\b', dia_chi)[0]
         raw_shipping_fee = browser.find_elements_by_class_name('income-value')[1].text
         phi_van_chuyen = convertTextToNumber(raw_shipping_fee)
         raw_transaction_fee = browser.find_elements_by_class_name('income-value')[-2].text
@@ -149,10 +150,9 @@ for detail_link in detail_links:
         
         san_pham = getStringProductFromDictProduct(dict_products, dict_total_products)
 
-        writeToFile('log.txt', f'{sdt}, {ma_van_don}, {san_pham}')
+        writeToFile('log.txt', f'{ma_van_don}, {san_pham}')
     
         data.append({
-            SDT: sdt,
             MA_VAN_DON: ma_van_don,
             DVVC: dict_dvvc[dvvc],
             SAN_PHAM: san_pham,

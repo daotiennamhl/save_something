@@ -18,12 +18,12 @@ LINK = 'Link'
 TRU_VON = 'Trừ vốn'
 
 before_fields = [
-    SDT,
     MA_VAN_DON,
     SAN_PHAM,
+    THOI_GIAN_DAT_HANG,
+    SDT,
     DVVC,
     LUU_Y,
-    THOI_GIAN_DAT_HANG,
     QUA_HAN_GIAO,
     PHI_VAN_CHUYEN,
     PHI_GIAO_DICH,

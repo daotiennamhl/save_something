@@ -33,6 +33,9 @@ dict_product_import_price = {
     'hồng cổ': 5000,
     'susu': 4000,
     'mẫu đơn đỏ 35k': 15000,
+    'mẫu đơn 35k': 15000,
+    '35cm': 20000,
+    'lan trần mộng': 300000
 }
 
 giveKichRe = ['gốc tỷ muội', 'gốc ghép mắt', 'hồng mới', 'hồng đại', 'hồng', 'leo']

@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Nov 28 09:10:04 2022
+# Make data base, printed on Fri Feb 24 11:47:00 2023
 
 # Variables
 
@@ -37,7 +37,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8420_TCDHWPBSFWXKMWIK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_14404_MWNQLXMWTQQYOEML
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -51,7 +51,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Nam\AppData\Roaming\Code\CachedData\6261075646f055b99068d3688932416f2346dd3b
+VSCODE_CODE_CACHE_PATH = C:\Users\Nam\AppData\Roaming\Code\CachedData\441438abd1ac652551dbe4d408dfcec8a499b8bf
 # environment
 LANG = C
 # default
@@ -69,7 +69,7 @@ ONEDRIVE = C:\Users\Nam\OneDrive
 # makefile
 CURDIR := d:/Learning/learn/save_something
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -87,7 +87,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 8420
+VSCODE_PID = 14404
 # makefile (from 'Makefile', line 1)
 BRANCH = master
 # automatic
@@ -157,8 +157,7 @@ OS = Windows_NT
 # default
 MAKE_VERSION := 4.3
 # environment
-PROGRAMFILES(X86) = C:\Program Files  
-(x86)
+PROGRAMFILES(X86) = C:\Program Files (x86)
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-RET4OHN
 # environment
@@ -180,7 +179,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Nam\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\b2cdc7f712e18ff2ff3cd347c1990bda-1.73.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\b2cdc7f712e18ff2ff3cd347c1990bda-1.75.1-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -275,6 +274,6 @@ all:
 # strcache performance: lookups = 31 / hit rate = 19%
 # hash-table stats:
 # Load=25/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Mon Nov 28 09:10:04 2022
+# Finished Make data base on Fri Feb 24 11:47:00 2023
 
  
