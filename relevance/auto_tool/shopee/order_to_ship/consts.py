@@ -39,6 +39,7 @@ dict_dvvc = {
     'Giao Hàng Tiết Kiệm': 'GHTK',
     'J&T Express': 'J&T',
     'Shopee Xpress': 'SPX',
+    'Ninja Van': 'Ninja Van',
     '': '',
     'Lỗi. Không thể hiển thị đơn vị vận chuyển.': 'Error',
 }

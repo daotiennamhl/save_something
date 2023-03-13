@@ -44,14 +44,14 @@ sleep(20)
 # pass through intro
 browser.find_elements_by_class_name('shopee-modal__footer-buttons')[-1].click()
 sleep(2)
-waitElement('//span[contains(text(), "Tiếp theo")]', browser, 10)
-sleep(2)
-browser.find_element_by_xpath('//span[contains(text(), "Tiếp theo")]').find_element_by_xpath('..').click()
-sleep(1)
-browser.find_elements_by_xpath('//span[contains(text(), "Tiếp theo")]')[-1].find_element_by_xpath('..').click()
-sleep(1)
-browser.find_element_by_xpath('//span[contains(text(), "Xác nhận")]').find_element_by_xpath('..').click()
-sleep(1)
+# waitElement('//span[contains(text(), "Tiếp theo")]', browser, 10)
+# sleep(2)
+# browser.find_element_by_xpath('//span[contains(text(), "Tiếp theo")]').find_element_by_xpath('..').click()
+# sleep(1)
+# browser.find_elements_by_xpath('//span[contains(text(), "Tiếp theo")]')[-1].find_element_by_xpath('..').click()
+# sleep(1)
+# browser.find_element_by_xpath('//span[contains(text(), "Xác nhận")]').find_element_by_xpath('..').click()
+# sleep(1)
 
 def getLinks():
     order_item_list = browser.find_elements_by_xpath('//a[@class="order-item"]')[:]
