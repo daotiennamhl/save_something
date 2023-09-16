@@ -11,7 +11,7 @@
   - startWith:
     - Thường dùng để cung cấp giá trị ban đầu cho các API call
   - merge:
-    - use case thường gặp là khi có 1 Formgroup và muốn lắng nghe vào từng FormControl.valueChanges
+    - use case thường gặp là khi có 1 Formgroup và muốn lắng nghe vào từng FormControl.valueChanges mà không quan tâm đến giá trị emit ra từ observable
   - concat:
     - emit các giá trị của observable theo thứ tự truyền vào, xong observable này mới đến observable kia
 - HOOs
