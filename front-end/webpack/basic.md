@@ -1,0 +1,1 @@
+- when change the order of the Javascript files, the project might break

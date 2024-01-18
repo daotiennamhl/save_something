@@ -61,5 +61,6 @@
     - Are functions
     - Two type: pipeable Operators and creation Operators
   - Subscription:
-    - 
+    - has an unsubscribe() function to release resources or cancel Observable executions
   - Subjects:
+    - 

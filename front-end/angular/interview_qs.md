@@ -1,6 +1,6 @@
 DI trong angular là gì
 các loại form trong angular và cách sử dụng
-validate form trong angular như thế nào, custom validator bao giờ chưa
+validate form trong angular như thế nào, custom validator bao giờ chưa -->
 pipe, directive trong angular là gì, phân biệt, custom bao giờ chưa
 các cách giao tiếp giữa các component trong angular(giữa component cha với con, giữa các component với nhau)
 Có biết về angular change detection không(nếu có thì nêu những thứ e biết về change detection trong angular)

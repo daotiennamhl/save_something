@@ -9,3 +9,6 @@
         - Each message is processed completely before any other message is processed.
         - cái setTimeout() hoạt động ảo vl:
             - delay = 0 nhưng vẫn phải đợi mấy dòng code ở sau không dùng setTimeout() chạy trước thì mới đến lượt đưa vào queue
+
+- Ajax = Asynchronous Javascript and XML
+    - combination of browser built-in XMLHTTPRequest object + JS and HTML DOM
