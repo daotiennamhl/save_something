@@ -1,0 +1,1 @@
+entity adapter la gi
