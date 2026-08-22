@@ -1,4 +1,6 @@
 work
 **/.env
 **/*.txt
-daily.md
+**/*.json
+**/*.png
+**/*.venv
