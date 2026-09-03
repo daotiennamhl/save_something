@@ -1,6 +1,5 @@
 work
 **/.env
-**/*.txt
 **/*.json
 **/*.png
 **/*.venv
