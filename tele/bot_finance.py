@@ -18,34 +18,11 @@ def parse_amount(amount_str):
         return int(float(amount_str) * 1000)
     return int(amount_str)
 
-# Bắt sự kiện khi người dùng gõ tin nhắn text
 @bot.message_handler(func=lambda message: True)
-def handle_finance(message):
-    text = message.text.strip()
+def get_my_id(message):
+    # Con bot sẽ rep lại chính xác ID tài khoản Telegram của bạn
+    print(f"Chat ID của bạn là: {message.chat.id}")
+    bot.reply_to(message, f"🎯 CHAT_ID của bạn là: `{message.chat.id}`", parse_mode="Markdown")
     
-    # Sử dụng Regex để tách phần Chữ (Khoản chi) và phần Số (Số tiền)
-    # Hỗ trợ định dạng: "Tên_khoản_chi Số_tiền" (Ví dụ: Ăn trưa 50k hoặc Cafe 30000)
-    match = re.match(r"^(.+)\s+(\d+(?:\.\d+)?k?|\d+)$", text, re.IGNORECASE)
-    
-    if match:
-        item = match.group(1).strip()
-        amount_raw = match.group(2).strip()
-        
-        try:
-            amount = parse_amount(amount_raw)
-            
-            # Gửi dữ liệu sang Google Sheets thông qua Apps Script URL
-            payload = {"item": item, "amount": amount}
-            response = requests.post(GOOGLE_SHEET_URL, json=payload)
-            
-            if response.status_code == 200:
-                bot.reply_to(message, f"✅ Đã ghi nhận: *{item}* -> *{amount:,}đ* vào Google Sheets!", parse_mode="Markdown")
-            else:
-                bot.reply_to(message, "❌ Lỗi kết nối với Google Sheets.")
-        except Exception as e:
-            bot.reply_to(message, f"❌ Có lỗi xảy ra khi xử lý dữ liệu: {str(e)}")
-    else:
-        bot.reply_to(message, "⚠️ Sai cú pháp rồi bạn ơi!\nHãy nhập theo dạng: `Tên_khoản_chi Số_tiền` (Ví dụ: `Ăn trưa 50k` hoặc `Mua sách 120000`)")
-
 # Chạy bot liên tục (Long Polling)
 bot.infinity_polling()
